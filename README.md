@@ -1,72 +1,65 @@
-# Website Interaktif & Profil Perusahaan — PT Advanced Freight Management Global Logistic (AFM GL)
+# PT Advanced Freight Management Global Logistic (AFM GL)
+## Website Resmi Profil Perusahaan & Kalkulator Rute Kargo
 
-Website modern, interaktif, dan informatif yang dibangun berdasarkan seluruh data dan materi dokumen Company Profile **PT ADVANCED FREIGHT MANAGEMENT GLOBAL LOGISTIC (AFM GL)**.
-
----
-
-## 🌟 Fitur & Keunggulan Website
-
-1. **Bebas "AI Slop" & Berbasis Realita Lapangan:**
-   - Bahasa lugas, berwibawa, dan terminologi logistik Indonesia autentik (Jasa Pengurusan Transportasi / JPT, KBLI 52311, ALFI/ILFA, Truk Fuso, Multimoda, Trans-Sulawesi, Proof of Delivery / POD, dsb.).
-   - Tanpa jargon fiksi atau klaim berlebihan yang tidak tercantum dalam dokumen profil resmi.
-
-2. **Kalkulator Rute & Estimasi Pengiriman Interaktif (WhatsApp RFQ Generator):**
-   - Pengunjung dapat memilih titik asal (Makassar, Jakarta, Surabaya, Balikpapan, Manado, dll.), kota tujuan, pilihan armada (Truk Fuso Darat, Sea Freight, Air Freight, Multimoda), tonase kargo, dan catatan khusus.
-   - Sistem otomatis menghitung rekomendasi armada dan estimasi transit time, serta menyediakan tombol **"Kirim RFQ ke WhatsApp"** yang langsung memformat pesan penawaran resmi ke nomor kantor AFM GL (`0852-4008-6288`).
-
-3. **Alur Kerja Operasional Interaktif 8 Langkah (How We Work):**
-   - Eksplorasi langkah per langkah dari *Inquiry, Cargo Identification, Solution & Quotation, Order Confirmation, Transportation Arrangement, Loading & Delivery, Monitoring, hingga POD & Reporting*.
-   - Dilengkapi rincian tindakan operasional, deliverable dokumen (Surat Jalan, B/L, AWB, Loading Report, POD), dan divisi penanggung jawab sesuai prinsip:  
-     `UNDERSTAND → PLAN → COORDINATE → MONITOR → DELIVER`.
-
-4. **Showcase Armada & Jaringan Multimoda (Fleet & Network Tabs):**
-   - Tab interaktif untuk Armada Darat Truk Fuso, Sea Freight (Pelabuhan Soekarno-Hatta Makassar), Air Freight (Bandara Sultan Hasanuddin), dan Pengiriman Internasional.
-   - Diagram Alur Koordinasi Jaringan & Ekosistem Kemitraan ALFI / ILFA.
-
-5. **Legalitas Resmi & Inspector Modal Terverifikasi:**
-   - Kartu legalitas terverifikasi dengan fitur *1-Click Copy to Clipboard* untuk:
-     * **SK Kemenkumham RI:** `AHU-0054296.AH.01.01.Tahun 2026`
-     * **NIB (OSS Berbasis Risiko):** `0508260212793`
-     * **NPWP Badan Usaha:** `1000000010340490`
-     * **Keanggotaan ALFI / ILFA** (Asosiasi Logistik & Forwarder Indonesia)
-   - Modal pop-up dengan detail akta notaris, pejabat pengesahan, dan rincian perizinan KBLI 52311.
-
-6. **Desain Modern & Responsif:**
-   - Palet warna korporat prestisius: Deep Royal Navy (`#0B1A30`), Gold Accent (`#C9933B`), Ice Blue, dan Glassmorphism.
-   - Tipografi elegan Google Fonts (`Plus Jakarta Sans` & `Outfit`).
-   - Sticky navigation dengan ScrollSpy aktif, Mobile Drawer Menu, dan Floating WhatsApp Chat Button.
+Website korporat modern, profesional, dan interaktif yang dibangun menggunakan **100% materi otentik dan aset visual** dari dokumen Company Profile resmi PT Advanced Freight Management Global Logistic (Makassar, Sulawesi Selatan).
 
 ---
 
-## 📂 Struktur File
+## 🌟 Pembaruan Utama (Zero AI Slop & Full Authentic Assets)
+
+1. **Aset Visual Nyata dari Profil (Bukan Gambar AI):**
+   - **Logo Resmi AFM GL:** Ditempatkan di header, navigasi, dan footer (`assets/images/afm-logo.jpg`).
+   - **Banner Hero Multimoda:** Pesawat kargo, kapal peti kemas, armada truk, dan kereta dari sampul profil (`assets/images/hero-multimodal.jpg`).
+   - **Foto Direktur Resmi:** Potret **Andi Farida Merjan** (Direktur) dengan busana hijab resmi dari halaman 2 profil (`assets/images/director-andi-farida.jpg`).
+   - **Foto Operasional Laptop:** Visual monitoring rute dan kargo dari halaman 11 (`assets/images/operations-laptop.jpg`).
+   - **Peta Jaringan Global:** Ilustrasi lintasan maritim dan udara dari halaman 10 (`assets/images/network-global-map.jpg`).
+   - **Diagram Ekosistem Kemitraan:** Diagram resmi ALFI / ILFA, Truck Network, dan Sea Transportation dari halaman 12 (`assets/images/network-ecosystem-circle.jpg`).
+   - **Dokumen Legalitas Asli (Dapat Diperbesar):**
+     * SK Pengesahan Menteri Hukum RI (`legal-sk-kemenkumham.jpg`)
+     * NIB OSS Berbasis Risiko BKPM (`legal-nib-oss.jpg`)
+     * Kartu NPWP KPP Pratama Makassar Utara (`legal-npwp-card.jpg`)
+   - **Armada Truk Fuso:** Dokumentasi truk Fuso di pelabuhan (`assets/images/fuso-truck-crane.jpg`).
+
+2. **Kalkulator Rute & Tarif Berfungsi Penuh:**
+   - **Tombol Rute Cepat:** Makassar ➔ Kendari, Makassar ➔ Palu, Makassar ➔ Mamuju, Makassar ➔ Surabaya, Makassar ➔ Jakarta, Makassar ➔ Balikpapan.
+   - **Penghitungan Real-Time:** Menghitung jarak lintasan (Km), durasi perjalanan (Hari), rekomendasi armada spesifik (Truk Fuso Box/Bak, Kapal Laut FCL/LCL, Air Cargo), tarif per Kg, dan total estimasi dalam Rupiah (Rp).
+   - **Integrasi Langsung WhatsApp:** Tombol *"Kirim Hasil Kalkulasi ke WhatsApp Resmi (0852-4008-6288)"* yang langsung menyusun format pesan lengkap ke admin operasional.
+
+3. **Warna Bersih & Elegan (Bebas Neon AI Slop):**
+   - Menggunakan warna dasar **Pure White** dan **Slate 50** dengan aksen **Deep Navy Blue (`#0F2C59`)** dan **Warm Gold (`#C58B24`)** yang sesuai dengan warna mahkota pada logo AFM GL.
+   - Tata letak kartu rapi, berwibawa, kontras tinggi, dan nyaman dibaca untuk rekanan B2B, perbankan, dan mitra logistik.
+
+---
+
+## 📂 Struktur Berkas
 
 ```
 C:\Users\MSI Modern\.gemini\antigravity\scratch\afm-logistic-website\
-├── index.html       # Halaman utama website lengkap
-├── styles.css       # Styling kustom, pattern logistik, scrollbar & glassmorphism
-├── app.js           # Logika interaktif (Kalkulator RFQ, Stepper, Modal, Clipboard)
-└── README.md        # Panduan dokumentasi
+├── index.html                   # Halaman web lengkap & responsif
+├── styles.css                   # Sistem desain korporat bersih
+├── app.js                       # Mesin kalkulator rute, modal zoom, stepper
+├── README.md                    # Dokumentasi ini
+└── assets\
+    └── images\                  # Aset foto & pindaian dokumen asli dari PDF
+        ├── afm-logo.jpg
+        ├── director-andi-farida.jpg
+        ├── hero-multimodal.jpg
+        ├── operations-laptop.jpg
+        ├── network-global-map.jpg
+        ├── network-ecosystem-circle.jpg
+        ├── legal-sk-kemenkumham.jpg
+        ├── legal-nib-oss.jpg
+        ├── legal-npwp-card.jpg
+        └── fuso-truck-crane.jpg
 ```
 
 ---
 
-## 🚀 Cara Membuka & Menjalankan Website
+## 🚀 Cara Menjalankan Website
 
-### Opsi 1: Buka Langsung di Browser (Paling Mudah)
-Cukup klik dua kali (double click) file `index.html` atau buka melalui browser (Chrome / Edge / Firefox):
+Cukup buka atau klik dua kali (double-click) file:
 ```
 C:\Users\MSI Modern\.gemini\antigravity\scratch\afm-logistic-website\index.html
 ```
-
-### Opsi 2: Jalankan via Local Web Server
-Jika ingin menjalankan menggunakan server lokal:
-```bash
-# Menggunakan npx serve
-npx serve "C:\Users\MSI Modern\.gemini\antigravity\scratch\afm-logistic-website"
-
-# ATAU menggunakan Python
-cd "C:\Users\MSI Modern\.gemini\antigravity\scratch\afm-logistic-website"
-python -m http.server 3000
-```
-Lalu buka tautan `http://localhost:3000` di peramban Anda.
-
+di peramban (browser) apa saja seperti Google Chrome, Microsoft Edge, atau Mozilla Firefox.
+Semua fitur kalkulator, modal dokumen, stepper, dan tombol WhatsApp berjalan secara instan offline maupun online!

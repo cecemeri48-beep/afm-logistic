@@ -3,29 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PT Advanced Freight Management Global Logistic | Jasa Pengurusan Transportasi & Freight Forwarding</title>
-  <meta name="description" content="PT Advanced Freight Management Global Logistic (AFM GL) - Jasa Pengurusan Transportasi (JPT) KBLI 52311 dan Freight Forwarding berbasis di Makassar. Menghubungkan jaringan transportasi darat, laut, dan udara secara profesional, responsif, dan terpercaya.">
-  <meta name="keywords" content="AFM GL, freight forwarding makassar, jasa pengurusan transportasi, ekspedisi sulawesi, armada fuso, logistik indonesia, JPT KBLI 52311, alfi ilfa">
+  <title>PT Advanced Freight Management Global Logistic | JPT & Freight Forwarding</title>
+  <meta name="description" content="PT Advanced Freight Management Global Logistic (AFM GL) - Jasa Pengurusan Transportasi (JPT) KBLI 52311 dan Freight Forwarding di Makassar, Sulawesi Selatan. Solusi transportasi darat Fuso, laut, dan udara.">
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
-      darkMode: 'class',
       theme: {
         extend: {
           colors: {
-            brand: {
-              50: '#f8fafc',
-              100: '#f1f5f9',
-              800: '#0f223f',
-              900: '#0b1a30',
-              950: '#071120',
+            navy: {
+              primary: '#0F2C59',
+              dark: '#0A192F',
+              light: '#1E3A8A',
+              subtle: '#243B6A'
             },
             gold: {
-              400: '#e5b35c',
-              500: '#c9933b',
-              600: '#aa782a',
+              accent: '#C58B24',
+              hover: '#B27B1D',
+              light: '#FBF4E8'
             }
           }
         }
@@ -33,245 +30,168 @@
     }
   </script>
   
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-400 selection:text-slate-900">
+<body class="bg-white text-slate-800 antialiased selection:bg-amber-100 selection:text-navy-primary">
 
-  <!-- TOP BAR INFO -->
-  <div class="bg-brand-950 text-slate-300 text-xs border-b border-slate-800 py-2 px-4 sm:px-6 lg:px-8">
+  <!-- TOP BAR (Official Corporate Header) -->
+  <div class="bg-navy-dark text-slate-300 text-xs py-2.5 px-4 sm:px-6 lg:px-8 border-b border-navy-subtle/50">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-      <div class="flex items-center gap-4 flex-wrap justify-center md:justify-start">
-        <span class="flex items-center gap-1.5 text-slate-400">
-          <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
-          BTN Angkasa Pura 1 Sudiang, Kota Makassar, Sulawesi Selatan
+      <div class="flex items-center gap-3 sm:gap-4 flex-wrap justify-center md:justify-start">
+        <span class="flex items-center gap-1.5 text-slate-300 font-medium">
+          <svg class="w-3.5 h-3.5 text-gold-accent" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+          BTN Angkasa Pura 1 Sudiang Blok B 8/6, Makassar, Sulawesi Selatan
         </span>
-        <span class="hidden sm:inline text-slate-600">|</span>
-        <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-950 text-emerald-300 border border-emerald-800/60">
-          ● KBLI 52311 Resmi
+        <span class="hidden sm:inline text-slate-600">•</span>
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-900/60 text-emerald-300 border border-emerald-600/40">
+          KBLI 52311 Resmi (JPT)
         </span>
-        <span class="hidden lg:inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-blue-950 text-blue-300 border border-blue-800/60">
+        <span class="hidden md:inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-blue-900/60 text-blue-200 border border-blue-600/40">
           Anggota ALFI / ILFA
         </span>
       </div>
-      <div class="flex items-center gap-4">
-        <a href="tel:085240086288" class="hover:text-amber-400 transition flex items-center gap-1">
-          <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path></svg>
-          0852-4008-6288
+
+      <div class="flex items-center gap-4 text-xs">
+        <a href="tel:085240086288" class="hover:text-gold-accent transition flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-gold-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path></svg>
+          <span class="font-semibold">0852-4008-6288</span>
         </a>
         <span class="text-slate-600">|</span>
-        <a href="mailto:afmgloballogistik@gmail.com" class="hover:text-amber-400 transition flex items-center gap-1">
-          <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
-          afmgloballogistik@gmail.com
+        <a href="mailto:afmgloballogistik@gmail.com" class="hover:text-gold-accent transition flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-gold-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+          <span>afmgloballogistik@gmail.com</span>
         </a>
       </div>
     </div>
   </div>
 
   <!-- MAIN NAVIGATION -->
-  <header class="sticky top-0 z-40 glass-nav border-b border-slate-800/80 transition-all duration-300">
+  <header class="sticky top-0 z-40 corporate-nav">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         
-        <!-- LOGO BRANDING -->
+        <!-- Authentic Logo Branding from PDF -->
         <a href="#beranda" class="flex items-center gap-3 group">
-          <div class="w-12 h-12 rounded-full bg-white p-1 shadow-md border-2 border-amber-400/80 flex items-center justify-center shrink-0">
-            <!-- Custom SVG matching the PDF circular badge -->
-            <svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="50" cy="50" r="46" fill="none" stroke="#c9933b" stroke-width="2.5"/>
-              <!-- Crown -->
-              <path d="M36 34 L40 40 L50 32 L60 40 L64 34 L66 43 L34 43 Z" fill="#c9933b"/>
-              <!-- afm lettering -->
-              <text x="50" y="62" font-family="'Times New Roman', Georgia, serif" font-size="28" font-weight="bold" font-style="italic" fill="#c9933b" text-anchor="middle">afm</text>
-              <line x1="28" y1="67" x2="72" y2="67" stroke="#0b1a30" stroke-width="1.5"/>
-              <!-- GLOBAL LOGISTIK -->
-              <text x="50" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="800" fill="#0b1a30" letter-spacing="1" text-anchor="middle">GLOBAL LOGISTIK</text>
-            </svg>
-          </div>
+          <img src="assets/images/afm-logo.jpg" alt="Logo PT AFM Global Logistic" class="w-12 h-12 rounded-full object-contain border border-slate-200 shadow-sm p-0.5 bg-white">
           <div class="flex flex-col">
-            <span class="text-white font-extrabold text-sm sm:text-base tracking-wide leading-tight group-hover:text-amber-400 transition">
+            <span class="text-navy-primary font-extrabold text-sm sm:text-base tracking-tight leading-tight group-hover:text-navy-light transition">
               PT ADVANCED FREIGHT MANAGEMENT
             </span>
-            <span class="text-amber-400 text-xs font-semibold tracking-wider flex items-center gap-1.5">
-              GLOBAL LOGISTIC <span class="text-slate-400 text-[10px] font-normal hidden sm:inline">• KBLI 52311</span>
-            </span>
+            <div class="flex items-center gap-2">
+              <span class="text-gold-accent font-bold text-xs tracking-wider">GLOBAL LOGISTIC</span>
+              <span class="text-[11px] text-slate-500 font-medium hidden sm:inline">• JPT KBLI 52311</span>
+            </div>
           </div>
         </a>
 
-        <!-- DESKTOP NAVIGATION LINKS -->
-        <nav class="hidden lg:flex items-center gap-6 text-sm">
-          <a href="#beranda" class="desktop-nav-link text-slate-300 hover:text-amber-400 transition font-medium">Beranda</a>
-          <a href="#tentang" class="desktop-nav-link text-slate-300 hover:text-amber-400 transition font-medium">Tentang Kami</a>
-          <a href="#layanan" class="desktop-nav-link text-slate-300 hover:text-amber-400 transition font-medium">Layanan</a>
-          <a href="#estimasi" class="desktop-nav-link text-slate-300 hover:text-amber-400 transition font-medium">Kalkulator Rute</a>
-          <a href="#alur-kerja" class="desktop-nav-link text-slate-300 hover:text-amber-400 transition font-medium">Alur Kerja</a>
-          <a href="#legalitas" class="desktop-nav-link text-slate-300 hover:text-amber-400 transition font-medium">Legalitas</a>
-          <a href="#kontak" class="desktop-nav-link text-slate-300 hover:text-amber-400 transition font-medium">Kontak</a>
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
+          <a href="#beranda" class="hover:text-navy-primary transition">Beranda</a>
+          <a href="#tentang" class="hover:text-navy-primary transition">Tentang Kami</a>
+          <a href="#layanan" class="hover:text-navy-primary transition">Layanan & Armada</a>
+          <a href="#kalkulator" class="text-navy-primary font-bold hover:text-navy-light transition flex items-center gap-1">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            Kalkulator Rute
+          </a>
+          <a href="#alur-kerja" class="hover:text-navy-primary transition">Alur Operasional</a>
+          <a href="#legalitas" class="hover:text-navy-primary transition">Legalitas</a>
+          <a href="#kontak" class="hover:text-navy-primary transition">Kontak</a>
         </nav>
 
-        <!-- CTA BUTTON -->
+        <!-- CTA Button -->
         <div class="hidden sm:flex items-center gap-3">
-          <a href="#estimasi" class="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-bold px-4 py-2.5 rounded-lg text-xs md:text-sm shadow-md hover:shadow-amber-500/25 transition">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-            Minta Penawaran (RFQ)
+          <a href="#kalkulator" class="inline-flex items-center gap-2 bg-navy-primary hover:bg-navy-dark text-white font-bold px-4 py-2.5 rounded-lg text-xs md:text-sm shadow-sm transition">
+            <svg class="w-4 h-4 text-gold-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+            Hitung Rute & Tarif
           </a>
         </div>
 
-        <!-- MOBILE HAMBURGER -->
-        <button id="mobileMenuBtn" class="lg:hidden text-slate-300 hover:text-white p-2 rounded-lg focus:outline-none">
+        <!-- Mobile Menu Hamburger -->
+        <button id="mobileMenuToggle" class="lg:hidden p-2 rounded-lg text-slate-700 hover:text-navy-primary focus:outline-none">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
         </button>
 
       </div>
     </div>
 
-    <!-- MOBILE MENU DROPDOWN -->
-    <div id="mobileMenu" class="hidden lg:hidden bg-brand-900 border-t border-slate-800 px-4 pt-3 pb-6 space-y-2">
-      <a href="#beranda" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-amber-400">Beranda</a>
-      <a href="#tentang" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-amber-400">Tentang Kami & Direksi</a>
-      <a href="#tujuan-nilai" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-amber-400">Visi & Nilai Inti</a>
-      <a href="#layanan" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-amber-400">Layanan & Solusi</a>
-      <a href="#estimasi" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-amber-400">Kalkulator RFQ & Rute</a>
-      <a href="#alur-kerja" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-amber-400">8 Langkah Alur Kerja</a>
-      <a href="#legalitas" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-amber-400">Legalitas & Kemenkumham</a>
-      <a href="#kontak" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-amber-400">Kontak & Lokasi</a>
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenuContent" class="hidden lg:hidden bg-white border-t border-slate-200 px-4 pt-3 pb-6 space-y-2 shadow-lg">
+      <a href="#beranda" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-800 hover:bg-slate-100">Beranda</a>
+      <a href="#tentang" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-800 hover:bg-slate-100">Tentang Kami & Direktur</a>
+      <a href="#layanan" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-800 hover:bg-slate-100">Layanan & Armada Fuso</a>
+      <a href="#kalkulator" class="mobile-link block px-3 py-2 rounded-md font-bold text-navy-primary hover:bg-blue-50">Kalkulator Rute & Tarif</a>
+      <a href="#alur-kerja" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-800 hover:bg-slate-100">Alur Kerja (8 Langkah)</a>
+      <a href="#legalitas" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-800 hover:bg-slate-100">Legalitas & Kemenkumham</a>
+      <a href="#kontak" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-800 hover:bg-slate-100">Kontak & Alamat</a>
       <div class="pt-2">
-        <a href="https://wa.me/6285240086288" target="_blank" class="w-full text-center flex items-center justify-center gap-2 bg-amber-500 text-slate-950 font-bold px-4 py-2.5 rounded-lg text-sm">
+        <a href="https://wa.me/6285240086288" target="_blank" class="w-full text-center flex items-center justify-center gap-2 bg-emerald-600 text-white font-bold px-4 py-2.5 rounded-lg text-sm">
           WhatsApp Fast Response: 0852-4008-6288
         </a>
       </div>
     </div>
   </header>
 
-  <!-- HERO SECTION -->
-  <section id="beranda" class="relative bg-brand-900 text-white overflow-hidden py-16 sm:py-24 lg:py-28 bg-grid-pattern">
-    <!-- Glowing background accents -->
-    <div class="absolute -top-32 -left-32 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
-    <div class="absolute top-1/2 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+  <!-- HERO SECTION WITH OFFICIAL MULTIMODAL BANNER -->
+  <section id="beranda" class="relative bg-slate-50 border-b border-slate-200 overflow-hidden py-12 sm:py-16 lg:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         
-        <!-- Left Hero Content -->
-        <div class="lg:col-span-7 space-y-6">
-          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800/90 border border-amber-400/40 text-amber-400 text-xs sm:text-sm font-semibold shadow-inner">
-            <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-            Jasa Pengurusan Transportasi (JPT) • KBLI 52311
+        <!-- Left Hero Copy -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-white border border-slate-200 text-slate-800 text-xs font-semibold shadow-sm">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+            Badan Hukum PT Resmi • KBLI 52311 • ALFI / ILFA
           </div>
 
-          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-white">
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy-primary tracking-tight leading-tight">
             Connecting Logistics, <br>
-            <span class="bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-200 bg-clip-text text-transparent">Delivering Excellence.</span>
+            <span class="text-gold-accent">Delivering Excellence.</span>
           </h1>
 
-          <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
-            PT Advanced Freight Management Global Logistic (AFM GL) menghadirkan solusi pengorganisasian transportasi dan freight forwarding terpadu. Kami menghubungkan rantai pasok bisnis Anda secara fleksibel, aman, dan berorientasi pada karakteristik unik kargo ke seluruh Indonesia dan mancanegara.
+          <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+            PT Advanced Freight Management Global Logistic (AFM GL) menghadirkan layanan pengurusan transportasi dan logistik yang profesional, responsif, aman, dan berorientasi pada karakteristik unik kargo Anda. Menghubungkan jaringan transportasi darat (Armada Fuso), pelayaran laut, dan kargo udara dari Makassar ke seluruh Indonesia dan mancanegara.
           </p>
 
-          <!-- Interactive Action Buttons -->
-          <div class="flex flex-col sm:flex-row gap-4 pt-2">
-            <a href="#estimasi" class="inline-flex justify-center items-center gap-2.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-6 py-3.5 rounded-xl shadow-lg shadow-amber-500/20 transition transform hover:-translate-y-0.5 text-sm sm:text-base">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
-              Konsultasi & Estimasi Kargo
+          <div class="flex flex-col sm:flex-row gap-3 pt-2">
+            <a href="#kalkulator" class="inline-flex justify-center items-center gap-2 bg-navy-primary hover:bg-navy-dark text-white font-bold px-6 py-3.5 rounded-xl shadow-md transition text-sm sm:text-base">
+              <svg class="w-5 h-5 text-gold-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+              Hitung Estimasi Rute Kargo
             </a>
-            <a href="#alur-kerja" class="inline-flex justify-center items-center gap-2 bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white font-semibold px-6 py-3.5 rounded-xl border border-slate-700 transition text-sm sm:text-base">
-              <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
-              Alur Operasional (8 Langkah)
+            <a href="#tentang" class="inline-flex justify-center items-center gap-2 bg-white hover:bg-slate-100 text-navy-primary font-bold px-6 py-3.5 rounded-xl border border-slate-300 transition text-sm sm:text-base">
+              Profil & Sambutan Direktur
             </a>
           </div>
 
-          <!-- Official Trust Badges Grid -->
-          <div class="pt-6 border-t border-slate-800 grid grid-cols-2 sm:grid-cols-4 gap-4 text-left">
-            <div class="bg-slate-800/50 p-3 rounded-lg border border-slate-700/60">
-              <div class="text-amber-400 font-bold text-lg">KBLI 52311</div>
-              <div class="text-slate-400 text-xs">Jasa Pengurusan Transportasi</div>
+          <!-- Trust Badges Row -->
+          <div class="pt-4 border-t border-slate-200 grid grid-cols-3 gap-4 text-xs">
+            <div>
+              <div class="font-extrabold text-navy-primary text-base">Makassar Hub</div>
+              <div class="text-slate-500">Pintu Gerbang KTI</div>
             </div>
-            <div class="bg-slate-800/50 p-3 rounded-lg border border-slate-700/60">
-              <div class="text-amber-400 font-bold text-lg">ALFI / ILFA</div>
-              <div class="text-slate-400 text-xs">Asosiasi Forwarder RI</div>
+            <div>
+              <div class="font-extrabold text-navy-primary text-base">Truk Fuso</div>
+              <div class="text-slate-500">Lintas Trans-Sulawesi</div>
             </div>
-            <div class="bg-slate-800/50 p-3 rounded-lg border border-slate-700/60">
-              <div class="text-amber-400 font-bold text-lg">Fuso Fleet</div>
-              <div class="text-slate-400 text-xs">Armada Darat Andal</div>
-            </div>
-            <div class="bg-slate-800/50 p-3 rounded-lg border border-slate-700/60">
-              <div class="text-amber-400 font-bold text-lg">Hub Makassar</div>
-              <div class="text-slate-400 text-xs">Gerbang Logistik Timur</div>
+            <div>
+              <div class="font-extrabold text-navy-primary text-base">Multimoda</div>
+              <div class="text-slate-500">Darat • Laut • Udara</div>
             </div>
           </div>
         </div>
 
-        <!-- Right Hero Interactive Visual Card -->
-        <div class="lg:col-span-5">
-          <div class="relative rounded-2xl bg-gradient-to-b from-slate-800/90 to-brand-950 p-6 sm:p-8 border border-slate-700/80 shadow-2xl backdrop-blur-xl">
-            <!-- Header Tag -->
-            <div class="flex items-center justify-between pb-4 border-b border-slate-700/80">
-              <div>
-                <span class="text-xs uppercase tracking-wider text-amber-400 font-bold">Ringkasan Profil</span>
-                <h3 class="text-lg font-bold text-white">AFM Global Logistic</h3>
-              </div>
-              <span class="px-2.5 py-1 text-[11px] font-semibold bg-emerald-950 text-emerald-300 border border-emerald-700/50 rounded-full flex items-center gap-1">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
-                Operasional Aktif
-              </span>
-            </div>
-
-            <!-- Content Details -->
-            <div class="space-y-4 py-5 text-sm">
-              <div class="flex items-start gap-3">
-                <div class="p-2 rounded-lg bg-slate-700/60 text-amber-400 shrink-0 mt-0.5">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
-                </div>
+        <!-- Right Hero Image: Real Visual from PDF Page 1 -->
+        <div class="lg:col-span-6">
+          <div class="bg-white p-3 rounded-2xl border border-slate-200 shadow-md">
+            <div class="overflow-hidden rounded-xl relative group">
+              <img src="assets/images/hero-multimodal.jpg" alt="PT AFM GL Multimodal Transport - Air, Sea, Truck, Train" class="w-full h-auto object-cover rounded-xl group-hover:scale-105 transition duration-500">
+              <div class="absolute bottom-3 left-3 right-3 bg-navy-dark/90 backdrop-blur-md text-white p-3 rounded-lg text-xs flex items-center justify-between">
                 <div>
-                  <div class="text-xs text-slate-400 font-medium">Bentuk Badan Hukum</div>
-                  <div class="text-slate-100 font-semibold">Perseroan Terbatas (PT Swasta Nasional)</div>
-                  <div class="text-[11px] text-slate-400">SK Kemenkumham: AHU-0054296.AH.01.01.Tahun 2026</div>
+                  <div class="font-bold text-gold-accent">Integrated Logistics Network</div>
+                  <div class="text-[11px] text-slate-300">Air Freight • Sea Container • Trucking Fleet • Intermodal</div>
                 </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <div class="p-2 rounded-lg bg-slate-700/60 text-amber-400 shrink-0 mt-0.5">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                </div>
-                <div>
-                  <div class="text-xs text-slate-400 font-medium">Nomor Induk Berusaha (NIB)</div>
-                  <div class="text-slate-100 font-semibold font-mono">0508260212793</div>
-                  <div class="text-[11px] text-slate-400">Diterbitkan 5 Agustus 2026 (OSS BKPM)</div>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <div class="p-2 rounded-lg bg-slate-700/60 text-amber-400 shrink-0 mt-0.5">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                </div>
-                <div>
-                  <div class="text-xs text-slate-400 font-medium">Kantor Operasional & Pengurusan</div>
-                  <div class="text-slate-100 font-semibold">Biringkanaya, Kota Makassar</div>
-                  <div class="text-[11px] text-slate-400">Dekat Bandara Hasanuddin & Pelabuhan Makassar</div>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <div class="p-2 rounded-lg bg-slate-700/60 text-amber-400 shrink-0 mt-0.5">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
-                </div>
-                <div>
-                  <div class="text-xs text-slate-400 font-medium">Prinsip Operasional Utama</div>
-                  <div class="text-amber-400 font-bold text-xs tracking-wider">
-                    UNDERSTAND → PLAN → COORDINATE → MONITOR → DELIVER
-                  </div>
-                </div>
+                <span class="px-2 py-1 bg-gold-accent text-navy-dark font-extrabold rounded text-[10px]">AFM GL</span>
               </div>
             </div>
-
-            <!-- Quick Action Inside Card -->
-            <div class="pt-3 border-t border-slate-700/80">
-              <a href="https://wa.me/6285240086288?text=Halo%20PT%20AFM%20Global%20Logistic%2C%20saya%20ingin%20konsultasi%20kebutuhan%20transportasi%20kargo." target="_blank" class="w-full flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-2.5 px-4 rounded-xl transition text-xs sm:text-sm">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.35.491 1.199.534 1.286.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.861.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"></path></svg>
-                Hubungi Admin Dispatch via WhatsApp
-              </a>
-            </div>
-
           </div>
         </div>
 
@@ -279,497 +199,66 @@
     </div>
   </section>
 
-  <!-- DIRECTOR'S MESSAGE & LEADERSHIP SECTION -->
+  <!-- DIRECTOR'S MESSAGE SECTION WITH AUTHENTIC PHOTO (PDF PAGE 2) -->
   <section id="tentang" class="py-16 sm:py-20 bg-white border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
-        <!-- Left: Director's Profile & Quote Card -->
-        <div class="lg:col-span-5 space-y-6">
-          <div class="relative bg-gradient-to-br from-brand-900 to-slate-900 text-white rounded-2xl p-8 shadow-xl overflow-hidden">
-            <div class="absolute top-0 right-0 w-36 h-36 bg-amber-500/10 rounded-full blur-2xl"></div>
-            
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-amber-400 flex items-center justify-center text-amber-400 font-bold text-xl shadow-md">
-                AFM
-              </div>
+        <!-- Left: Authentic Director Photo from PDF Page 2 -->
+        <div class="lg:col-span-5">
+          <div class="relative bg-slate-50 p-4 rounded-2xl border border-slate-200 shadow-sm">
+            <div class="overflow-hidden rounded-xl border border-slate-200">
+              <img src="assets/images/director-andi-farida.jpg" alt="Andi Farida Merjan - Direktur PT AFM Global Logistic" class="w-full h-auto object-cover">
+            </div>
+            <div class="mt-4 p-3 bg-white rounded-xl border border-slate-200 flex items-center justify-between">
               <div>
-                <h3 class="text-xl font-bold text-white">Andi Farida Merjan</h3>
-                <p class="text-amber-400 text-sm font-medium">Direktur</p>
-                <p class="text-slate-400 text-xs">PT Advanced Freight Management Global Logistic</p>
+                <h3 class="font-bold text-navy-primary text-base">Andi Farida Merjan</h3>
+                <p class="text-xs text-gold-accent font-semibold">Direktur PT Advanced Freight Management Global Logistic</p>
               </div>
-            </div>
-
-            <div class="space-y-3 text-slate-300 text-sm leading-relaxed border-t border-slate-800 pt-5">
-              <p class="italic text-slate-200">
-                "Puji syukur kami panjatkan atas berdirinya PT Advanced Freight Management Global Logistic (AFM GL). Kami hadir dengan komitmen menghadirkan solusi pengiriman yang fleksibel sesuai karakteristik cargo, kebutuhan rute, waktu, serta kondisi operasional pelanggan."
-              </p>
-              <p class="text-xs text-slate-400">
-                "Kami menjadikan integritas, profesionalisme, keselamatan, keandalan, dan pelayanan pelanggan sebagai fondasi dalam membangun bisnis."
-              </p>
-            </div>
-
-            <div class="mt-6 pt-4 border-t border-slate-800 flex justify-between items-center text-xs">
-              <span class="text-amber-400 font-semibold tracking-wide">Connecting Logistics, Delivering Excellence</span>
-              <button id="openDirectorMessageBtn" class="text-slate-300 hover:text-white underline font-medium">
-                Baca Sambutan Lengkap →
+              <button id="openDirectorModalBtn" class="text-xs font-bold text-navy-light hover:underline flex items-center gap-1">
+                Baca Lengkap →
               </button>
             </div>
-          </div>
-
-          <!-- Board of Commissioners -->
-          <div class="p-5 bg-slate-50 rounded-xl border border-slate-200 flex items-center justify-between">
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-lg bg-slate-200 flex items-center justify-center text-slate-700 font-bold text-sm">
-                MS
-              </div>
+            <!-- Commissioner info -->
+            <div class="mt-3 p-3 bg-white rounded-xl border border-slate-200 text-xs flex items-center justify-between">
               <div>
-                <h4 class="font-bold text-slate-900 text-sm">Muh. Asratillah Senge, S.T.</h4>
-                <p class="text-xs text-slate-500">Komisaris Perusahaan</p>
+                <div class="font-bold text-slate-800">Muh. Asratillah Senge, S.T.</div>
+                <div class="text-slate-500 text-[11px]">Komisaris Perusahaan</div>
               </div>
+              <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-600 font-semibold text-[10px]">Dewan Komisaris</span>
             </div>
-            <span class="px-2.5 py-1 text-xs font-medium bg-slate-200 text-slate-700 rounded-md">
-              Dewan Komisaris
-            </span>
           </div>
         </div>
 
-        <!-- Right: Company Overview & At A Glance -->
-        <div class="lg:col-span-7 space-y-6">
+        <!-- Right: Official Director's Speech & Vision -->
+        <div class="lg:col-span-7 space-y-5">
           <div>
-            <span class="text-xs font-bold text-amber-600 uppercase tracking-wider">Company At A Glance</span>
-            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
-              Tentang PT AFM Global Logistic
+            <span class="text-xs font-bold text-gold-accent uppercase tracking-wider">Director's Message</span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-navy-primary mt-1">
+              Komitmen Pengurusan Transportasi Andal & Berkelanjutan
             </h2>
-            <p class="text-slate-600 mt-3 text-base leading-relaxed">
-              PT Advanced Freight Management Global Logistic (AFM GL) adalah perusahaan berbentuk Perseroan Terbatas yang bergerak di bidang <strong>Jasa Pengurusan Transportasi (JPT)</strong> dengan kegiatan usaha <strong>KBLI 52311</strong>. AFM GL berfokus pada pengorganisasian, pengaturan, dan pengurusan pengiriman barang melalui jaringan transportasi dan mitra yang disesuaikan dengan kebutuhan pelanggan.
+            <p class="text-xs text-slate-500 font-mono mt-0.5">Assalamu Alaikum Wr. Wb.</p>
+          </div>
+
+          <div class="space-y-3.5 text-slate-700 text-sm leading-relaxed">
+            <p>
+              Puji syukur kami panjatkan atas berdirinya <strong>PT Advanced Freight Management Global Logistic (AFM GL)</strong> sebagai perusahaan yang bergerak di bidang Jasa Pengurusan Transportasi (JPT) dan freight forwarding.
             </p>
-            <p class="text-slate-600 mt-2 text-sm leading-relaxed">
-              AFM GL membangun fondasi bisnis melalui kompetensi di bidang maritim dan logistik, pengembangan jaringan mitra transportasi, serta pendekatan layanan yang responsif dan fleksibel. Setiap kebutuhan pengiriman memiliki karakteristik unik—mulai dari jenis cargo, volume, asal dan tujuan, waktu pengiriman, hingga kebutuhan moda dan penanganan.
+            <p>
+              PT AFM GL hadir dengan komitmen untuk memberikan layanan pengurusan transportasi dan logistik yang <strong>profesional, responsif, aman, dan berorientasi pada kebutuhan pelanggan</strong>. Kami memahami bahwa kelancaran transportasi merupakan bagian penting dari keberlangsungan rantai pasok dan aktivitas bisnis setiap pelanggan.
             </p>
-          </div>
-
-          <!-- Key Corporate Identity Table -->
-          <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
-            <div class="bg-slate-900 text-white px-5 py-3 text-xs font-bold uppercase tracking-wider flex justify-between">
-              <span>Identitas & Profil Perusahaan</span>
-              <span class="text-amber-400">Data Terdaftar Resmi</span>
-            </div>
-            <div class="divide-y divide-slate-200 text-xs sm:text-sm">
-              <div class="grid grid-cols-1 sm:grid-cols-3 p-3.5 gap-1 bg-white">
-                <span class="text-slate-500 font-medium">Nama Perusahaan</span>
-                <span class="sm:col-span-2 font-semibold text-slate-900">PT Advanced Freight Management Global Logistic</span>
-              </div>
-              <div class="grid grid-cols-1 sm:grid-cols-3 p-3.5 gap-1">
-                <span class="text-slate-500 font-medium">Bisnis Utama</span>
-                <span class="sm:col-span-2 font-semibold text-slate-900">JPT / Freight Forwarding (KBLI 52311)</span>
-              </div>
-              <div class="grid grid-cols-1 sm:grid-cols-3 p-3.5 gap-1 bg-white">
-                <span class="text-slate-500 font-medium">Cakupan Layanan</span>
-                <span class="sm:col-span-2 text-slate-800">Domestik (Antarpulau & Lintas Daerah) & Internasional</span>
-              </div>
-              <div class="grid grid-cols-1 sm:grid-cols-3 p-3.5 gap-1">
-                <span class="text-slate-500 font-medium">Sarana Transportasi</span>
-                <span class="sm:col-span-2 font-semibold text-slate-900">Truk Fuso, Multimoda (Laut, Udara, Darat)</span>
-              </div>
-              <div class="grid grid-cols-1 sm:grid-cols-3 p-3.5 gap-1 bg-white">
-                <span class="text-slate-500 font-medium">Model Layanan</span>
-                <span class="sm:col-span-2 text-slate-800">Jaringan & Mitra Transportasi Terkoordinasi</span>
-              </div>
-              <div class="grid grid-cols-1 sm:grid-cols-3 p-3.5 gap-1">
-                <span class="text-slate-500 font-medium">Kantor Pusat</span>
-                <span class="sm:col-span-2 text-slate-800">BTN Angkasa Pura 1 Sudiang Blok B 8/6, Kel. Laikang, Kec. Biringkanaya, Kota Makassar, Sulawesi Selatan (90242)</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- PURPOSE, VISION, MISSION & CORE VALUES -->
-  <section id="tujuan-nilai" class="py-16 sm:py-20 bg-slate-900 text-white relative bg-dot-pattern">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <!-- Section Header -->
-      <div class="text-center max-w-3xl mx-auto mb-14">
-        <span class="text-amber-400 font-semibold text-xs uppercase tracking-widest">Our Purpose & Values</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">
-          Connecting Logistics to Keep Business Moving
-        </h2>
-        <p class="text-slate-300 text-sm sm:text-base mt-3">
-          “Connecting the right logistics solutions to every business need” — Mengorganisasikan transportasi secara terstruktur dari kebutuhan hingga ketibaan di tujuan.
-        </p>
-      </div>
-
-      <!-- 4 Pillars of Purpose -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-        <div class="bg-slate-800/80 border border-slate-700 p-6 rounded-2xl hover:border-amber-400/50 transition">
-          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4 font-bold text-lg">
-            01
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">CONNECT</h3>
-          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-            Menghubungkan kebutuhan pelanggan dengan jaringan transportasi yang sesuai dan efisien.
-          </p>
-        </div>
-
-        <div class="bg-slate-800/80 border border-slate-700 p-6 rounded-2xl hover:border-amber-400/50 transition">
-          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4 font-bold text-lg">
-            02
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">COORDINATE</h3>
-          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-            Mengorganisasikan proses pengiriman secara terstruktur dari analisa kebutuhan hingga delivery.
-          </p>
-        </div>
-
-        <div class="bg-slate-800/80 border border-slate-700 p-6 rounded-2xl hover:border-amber-400/50 transition">
-          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4 font-bold text-lg">
-            03
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">RESPOND</h3>
-          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-            Memberikan respons yang cepat, tanggap, dan fleksibel terhadap dinamika operasional pelanggan.
-          </p>
-        </div>
-
-        <div class="bg-slate-800/80 border border-slate-700 p-6 rounded-2xl hover:border-amber-400/50 transition">
-          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4 font-bold text-lg">
-            04
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">DELIVER</h3>
-          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-            Mendukung pengiriman yang aman, efisien, tepat waktu, serta terdokumentasi dengan akurat.
-          </p>
-        </div>
-      </div>
-
-      <!-- Vision & Mission -->
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch mb-16">
-        <!-- Vision -->
-        <div class="lg:col-span-5 bg-gradient-to-br from-brand-950 to-slate-900 p-8 rounded-2xl border border-amber-500/30 flex flex-col justify-between">
-          <div>
-            <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/40">
-              Visi Perusahaan
-            </span>
-            <h3 class="text-2xl font-extrabold text-white mt-4 mb-3">
-              Vision of AFM GL
-            </h3>
-            <p class="text-slate-200 text-base leading-relaxed">
-              "Menjadi perusahaan jasa pengurusan transportasi dan logistik yang <strong>terpercaya, responsif, dan berdaya saing</strong> dengan menghubungkan berbagai moda transportasi secara efektif."
+            <p class="bg-blue-50/70 p-4 rounded-xl border-l-4 border-navy-primary text-navy-dark text-xs sm:text-sm font-medium">
+              "Sebagai perusahaan yang sedang berada pada tahap awal pengembangan, kami menjadikan integritas, profesionalisme, keselamatan, keandalan, dan pelayanan pelanggan sebagai fondasi dalam membangun bisnis. Kami percaya bahwa pertumbuhan perusahaan harus dibangun melalui kualitas layanan dan hubungan jangka panjang yang saling memberikan nilai."
+            </p>
+            <p class="text-xs text-slate-600">
+              Ke depan, PT AFM GL berkomitmen untuk terus memperkuat jaringan, meningkatkan kompetensi sumber daya manusia di bidang maritim dan logistik, mengembangkan sistem operasional, serta memperluas kemampuan layanan secara bertahap.
             </p>
           </div>
-          <div class="pt-6 mt-6 border-t border-slate-800 flex items-center gap-3 text-xs text-slate-400">
-            <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-            <span>Fokus pada integrasi moda & keandalan rantai pasok</span>
-          </div>
-        </div>
 
-        <!-- Mission -->
-        <div class="lg:col-span-7 bg-slate-800/60 p-8 rounded-2xl border border-slate-700">
-          <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-blue-500/20 text-blue-300 border border-blue-500/40">
-            Misi Strategis
-          </span>
-          <h3 class="text-2xl font-extrabold text-white mt-4 mb-4">
-            5 Pilar Misi Utama
-          </h3>
-          <div class="space-y-3.5 text-sm">
-            <div class="flex items-start gap-3">
-              <span class="w-6 h-6 rounded-md bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">01</span>
-              <div>
-                <strong class="text-slate-100">Safe & Efficient Transportation:</strong>
-                <span class="text-slate-300 ml-1">Menyediakan layanan pengurusan transportasi yang aman, efisien, dan tepat waktu.</span>
-              </div>
-            </div>
-            <div class="flex items-start gap-3">
-              <span class="w-6 h-6 rounded-md bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">02</span>
-              <div>
-                <strong class="text-slate-100">Reliable Network:</strong>
-                <span class="text-slate-300 ml-1">Membangun jaringan mitra transportasi yang andal untuk mendukung kebutuhan pengiriman pelanggan.</span>
-              </div>
-            </div>
-            <div class="flex items-start gap-3">
-              <span class="w-6 h-6 rounded-md bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">03</span>
-              <div>
-                <strong class="text-slate-100">Customer Responsiveness:</strong>
-                <span class="text-slate-300 ml-1">Memberikan layanan yang responsif dan berorientasi pada kebutuhan pelanggan.</span>
-              </div>
-            </div>
-            <div class="flex items-start gap-3">
-              <span class="w-6 h-6 rounded-md bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">04</span>
-              <div>
-                <strong class="text-slate-100">Competent People:</strong>
-                <span class="text-slate-300 ml-1">Mengembangkan sumber daya manusia yang kompeten di bidang maritim dan logistik.</span>
-              </div>
-            </div>
-            <div class="flex items-start gap-3">
-              <span class="w-6 h-6 rounded-md bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">05</span>
-              <div>
-                <strong class="text-slate-100">Governance & Technology:</strong>
-                <span class="text-slate-300 ml-1">Menerapkan tata kelola dan teknologi yang mendukung kualitas layanan logistik.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Core Values -->
-      <div>
-        <h3 class="text-xl font-bold text-white text-center mb-6">7 Nilai Inti Perusahaan (Core Values)</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs sm:text-sm">
-          <div class="bg-slate-800/40 border border-slate-700/70 p-4 rounded-xl">
-            <div class="text-amber-400 font-bold mb-1">INTEGRITY</div>
-            <div class="text-slate-300">Menjunjung kejujuran, transparansi, dan tanggung jawab dalam setiap hubungan bisnis.</div>
-          </div>
-          <div class="bg-slate-800/40 border border-slate-700/70 p-4 rounded-xl">
-            <div class="text-amber-400 font-bold mb-1">PROFESSIONALISM</div>
-            <div class="text-slate-300">Menjalankan setiap proses dengan standar kerja yang profesional dan bertanggung jawab.</div>
-          </div>
-          <div class="bg-slate-800/40 border border-slate-700/70 p-4 rounded-xl">
-            <div class="text-amber-400 font-bold mb-1">RELIABILITY</div>
-            <div class="text-slate-300">Menjadi mitra yang dapat diandalkan dalam mendukung kelancaran transportasi pelanggan.</div>
-          </div>
-          <div class="bg-slate-800/40 border border-slate-700/70 p-4 rounded-xl">
-            <div class="text-amber-400 font-bold mb-1">RESPONSIVENESS</div>
-            <div class="text-slate-300">Merespons kebutuhan dan perubahan kondisi operasional secara cepat dan tepat.</div>
-          </div>
-          <div class="bg-slate-800/40 border border-slate-700/70 p-4 rounded-xl">
-            <div class="text-amber-400 font-bold mb-1">SAFETY</div>
-            <div class="text-slate-300">Menempatkan keselamatan sebagai bagian terpenting dalam setiap aktivitas transportasi kargo.</div>
-          </div>
-          <div class="bg-slate-800/40 border border-slate-700/70 p-4 rounded-xl">
-            <div class="text-amber-400 font-bold mb-1">CUSTOMER FOCUS</div>
-            <div class="text-slate-300">Menempatkan kebutuhan pelanggan sebagai dasar dalam merancang dan memberikan layanan.</div>
-          </div>
-          <div class="bg-slate-800/40 border border-slate-700/70 p-4 rounded-xl sm:col-span-2 lg:col-span-2">
-            <div class="text-amber-400 font-bold mb-1">CONTINUOUS IMPROVEMENT</div>
-            <div class="text-slate-300">Terus mengembangkan kemampuan SDM, sistem kerja, dan kualitas layanan secara berkelanjutan.</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- WHY AFM GL (6 PILLARS & OUR PROMISE) -->
-  <section class="py-16 sm:py-24 bg-white border-b border-slate-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-14">
-        <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Keunggulan Layanan</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1">
-          Why AFM GL — Built Around Your Logistics Needs
-        </h2>
-        <p class="text-slate-600 mt-3 text-sm sm:text-base leading-relaxed">
-          Setiap kebutuhan transportasi memiliki karakteristik yang berbeda. Karena itu, AFM GL tidak hanya berfokus pada proses pengiriman, tetapi pada bagaimana mengoordinasikan solusi transportasi yang tepat guna dan efisien.
-        </p>
-        <div class="mt-4 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-xs font-bold text-amber-900">
-          <span>OUR PROMISE:</span>
-          <span class="font-normal italic">“The right logistics solution, coordinated around your needs”</span>
-        </div>
-      </div>
-
-      <!-- 6 Pillars Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        
-        <!-- Pillar 1 -->
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-amber-400 hover:shadow-lg transition">
-          <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center font-bold text-base mb-4">
-            01
-          </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Maritime & Logistics Competence</h3>
-          <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
-            AFM GL didukung sumber daya manusia yang memiliki kompetensi di bidang maritim dan logistik sebagai fondasi dalam memahami kebutuhan transportasi dan pengiriman kargo secara menyeluruh.
-          </p>
-        </div>
-
-        <!-- Pillar 2 -->
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-amber-400 hover:shadow-lg transition">
-          <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-base mb-4">
-            02
-          </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Connected Transportation Network</h3>
-          <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
-            AFM GL mengembangkan jaringan dan kemitraan strategis dengan perusahaan logistik dan asosiasi forwarder untuk memperkuat kemampuan dalam menyediakan solusi pengiriman lintas moda.
-          </p>
-        </div>
-
-        <!-- Pillar 3 -->
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-amber-400 hover:shadow-lg transition">
-          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-base mb-4">
-            03
-          </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Flexible Transportation Solutions</h3>
-          <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
-            Pilihan moda dan jaringan transportasi dapat dikoordinasikan secara adaptif berdasarkan karakteristik cargo, volume atau berat barang, rute lintasan, serta kebutuhan operasional pelanggan.
-          </p>
-        </div>
-
-        <!-- Pillar 4 -->
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-amber-400 hover:shadow-lg transition">
-          <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-800 flex items-center justify-center font-bold text-base mb-4">
-            04
-          </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Responsive Service</h3>
-          <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
-            AFM GL menempatkan respons cepat terhadap kebutuhan pelanggan sebagai bagian penting dalam proses pelayanan, mulai dari identifikasi awal hingga pelaksanaan pengiriman di lapangan.
-          </p>
-        </div>
-
-        <!-- Pillar 5 -->
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-amber-400 hover:shadow-lg transition">
-          <div class="w-12 h-12 rounded-xl bg-red-100 text-red-800 flex items-center justify-center font-bold text-base mb-4">
-            05
-          </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Delivery Focus</h3>
-          <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
-            Setiap proses diarahkan untuk mendukung ketepatan waktu, keamanan cargo, dan kelancaran proses serah terima barang (delivery) sesuai dengan kesepakatan yang telah ditetapkan.
-          </p>
-        </div>
-
-        <!-- Pillar 6 -->
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-amber-400 hover:shadow-lg transition">
-          <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-800 flex items-center justify-center font-bold text-base mb-4">
-            06
-          </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-2">Customer-Oriented Approach</h3>
-          <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
-            Solusi transportasi disusun murni berdasarkan kebutuhan aktual pelanggan, bukan sekadar memaksakan ketersediaan armada atau moda tertentu.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- OUR SERVICES (5 Core Services) -->
-  <section id="layanan" class="py-16 sm:py-24 bg-slate-100 border-b border-slate-300/80">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-14">
-        <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Layanan Terintegrasi</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1">
-          Transportation & Logistics Solutions
-        </h2>
-        <p class="text-slate-600 mt-3 text-sm sm:text-base">
-          AFM GL menyediakan layanan Jasa Pengurusan Transportasi (JPT) / Freight Forwarding dengan mengorganisasikan, mengatur, dan mengurus pengiriman barang atas nama pelanggan melalui jaringan transportasi dan mitra terpercaya.
-        </p>
-      </div>
-
-      <!-- 5 Service Cards Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        
-        <!-- Service 01 -->
-        <div class="bg-white rounded-2xl p-7 shadow-sm border border-slate-200/90 hover:shadow-xl hover:border-amber-400/60 transition group flex flex-col justify-between">
-          <div>
-            <div class="flex items-center justify-between mb-5">
-              <span class="w-12 h-12 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center font-bold text-lg group-hover:bg-amber-500 group-hover:text-slate-950 transition">
-                01
-              </span>
-              <span class="text-xs font-semibold px-2.5 py-1 bg-slate-100 text-slate-600 rounded-md">Core JPT</span>
-            </div>
-            <h3 class="text-xl font-bold text-slate-900 group-hover:text-blue-900 transition">
-              Freight Forwarding / JPT
-            </h3>
-            <p class="text-slate-600 text-sm mt-3 leading-relaxed">
-              Pengorganisasian dan pengurusan pengiriman barang secara komprehensif dari titik asal hingga tujuan akhir sesuai kebutuhan spesifik pelanggan dengan pendampingan administrasi kepabeanan dan legalitas kargo.
-            </p>
-          </div>
-          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs text-slate-500 font-medium">
-            <span>✓ Pengurusan dokumen kargo & pengiriman door-to-door</span>
-          </div>
-        </div>
-
-        <!-- Service 02 -->
-        <div class="bg-white rounded-2xl p-7 shadow-sm border border-slate-200/90 hover:shadow-xl hover:border-amber-400/60 transition group flex flex-col justify-between">
-          <div>
-            <div class="flex items-center justify-between mb-5">
-              <span class="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold text-lg group-hover:bg-amber-500 group-hover:text-slate-950 transition">
-                02
-              </span>
-              <span class="text-xs font-semibold px-2.5 py-1 bg-slate-100 text-slate-600 rounded-md">Armada Fuso</span>
-            </div>
-            <h3 class="text-xl font-bold text-slate-900 group-hover:text-amber-700 transition">
-              Transportation Coordination
-            </h3>
-            <p class="text-slate-600 text-sm mt-3 leading-relaxed">
-              Koordinasi kebutuhan transportasi darat dan antardaerah dengan memilih jaringan, moda, serta armada yang tepat (termasuk Truk Fuso Box/Bak) yang disesuaikan dengan volume, tonase, dan sensitivitas muatan.
-            </p>
-          </div>
-          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs text-slate-500 font-medium">
-            <span>✓ Penyesuaian armada Truk Fuso & penataan rute efisien</span>
-          </div>
-        </div>
-
-        <!-- Service 03 -->
-        <div class="bg-white rounded-2xl p-7 shadow-sm border border-slate-200/90 hover:shadow-xl hover:border-amber-400/60 transition group flex flex-col justify-between">
-          <div>
-            <div class="flex items-center justify-between mb-5">
-              <span class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold text-lg group-hover:bg-amber-500 group-hover:text-slate-950 transition">
-                03
-              </span>
-              <span class="text-xs font-semibold px-2.5 py-1 bg-slate-100 text-slate-600 rounded-md">Darat • Laut • Udara</span>
-            </div>
-            <h3 class="text-xl font-bold text-slate-900 group-hover:text-emerald-700 transition">
-              Multimodal Transportation
-            </h3>
-            <p class="text-slate-600 text-sm mt-3 leading-relaxed">
-              Pengaturan kebutuhan transportasi terpadu yang menghubungkan kombinasi moda darat, laut, dan udara sesuai rute kepulauan, karakteristik cargo, jadwal pelabuhan/bandara, dan batas waktu operasional.
-            </p>
-          </div>
-          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs text-slate-500 font-medium">
-            <span>✓ Integrasi pelayaran laut, kargo udara, dan trucking</span>
-          </div>
-        </div>
-
-        <!-- Service 04 -->
-        <div class="bg-white rounded-2xl p-7 shadow-sm border border-slate-200/90 hover:shadow-xl hover:border-amber-400/60 transition group flex flex-col justify-between">
-          <div>
-            <div class="flex items-center justify-between mb-5">
-              <span class="w-12 h-12 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center font-bold text-lg group-hover:bg-amber-500 group-hover:text-slate-950 transition">
-                04
-              </span>
-              <span class="text-xs font-semibold px-2.5 py-1 bg-slate-100 text-slate-600 rounded-md">Distribusi Kargo</span>
-            </div>
-            <h3 class="text-xl font-bold text-slate-900 group-hover:text-purple-700 transition">
-              Distribution Management
-            </h3>
-            <p class="text-slate-600 text-sm mt-3 leading-relaxed">
-              Pengelolaan kebutuhan distribusi barang dari gudang, pelabuhan, atau sentra logistik melalui jaringan transportasi dan mitra yang tersedia guna menjamin ketersediaan barang di tangan penerima tepat waktu.
-            </p>
-          </div>
-          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs text-slate-500 font-medium">
-            <span>✓ Penjadwalan muatan & rute distribusi multikota</span>
-          </div>
-        </div>
-
-        <!-- Service 05 -->
-        <div class="bg-white rounded-2xl p-7 shadow-sm border border-slate-200/90 hover:shadow-xl hover:border-amber-400/60 transition group flex flex-col justify-between md:col-span-2 lg:col-span-2">
-          <div>
-            <div class="flex items-center justify-between mb-5">
-              <span class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-700 flex items-center justify-center font-bold text-lg group-hover:bg-amber-500 group-hover:text-slate-950 transition">
-                05
-              </span>
-              <span class="text-xs font-semibold px-2.5 py-1 bg-slate-100 text-slate-600 rounded-md">Jaringan & Kemitraan</span>
-            </div>
-            <h3 class="text-xl font-bold text-slate-900 group-hover:text-indigo-700 transition">
-              Logistics Network Solutions
-            </h3>
-            <p class="text-slate-600 text-sm mt-3 leading-relaxed">
-              Pemanfaatan jaringan mitra transportasi strategis dan asosiasi industri (ALFI/ILFA) untuk memperluas pilihan rute dan solusi pengiriman kargo, baik pada rute utama maupun daerah pelosok dengan kejelasan biaya dan kepastian jadwal.
-            </p>
-          </div>
-          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
-            <span>✓ Solusi berbasis kebutuhan aktual pelanggan, bukan sekadar ketersediaan armada</span>
-            <a href="#estimasi" class="text-amber-600 hover:text-amber-700 font-bold flex items-center gap-1">
-              Konsultasi Solusi →
-            </a>
+          <div class="pt-2 flex items-center justify-between border-t border-slate-200 text-xs">
+            <span class="font-bold text-navy-primary italic">Connecting Logistics, Delivering Excellence.</span>
+            <span class="text-slate-500">PT AFM Global Logistic • Makassar</span>
           </div>
         </div>
 
@@ -778,149 +267,186 @@
     </div>
   </section>
 
-  <!-- INTERACTIVE CARGO ESTIMATOR & WHATSAPP RFQ GENERATOR -->
-  <section id="estimasi" class="py-16 sm:py-24 bg-white border-b border-slate-200">
+  <!-- =================================================================== -->
+  <!-- FULLY FUNCTIONAL ROUTE & TARIFF CALCULATOR (FRONT & CENTER) -->
+  <!-- =================================================================== -->
+  <section id="kalkulator" class="py-16 sm:py-20 bg-slate-50 border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="max-w-3xl mx-auto text-center mb-12">
-        <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Kalkulator & Form Penawaran</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1">
-          Konsultasi Rute & Estimasi Pengiriman
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs font-bold text-gold-accent uppercase tracking-widest">Alat Bantu Operasional Pelanggan</span>
+        <h2 class="text-3xl font-extrabold text-navy-primary mt-1">
+          Kalkulator Rute & Estimasi Pengiriman Kargo
         </h2>
-        <p class="text-slate-600 mt-2 text-sm sm:text-base">
-          Tentukan kebutuhan pengiriman kargo Anda. Dapatkan rekomendasi moda, estimasi waktu transit, dan kirimkan format permintaan penawaran resmi (RFQ) langsung ke tim operasional AFM GL.
+        <p class="text-slate-600 text-sm mt-2">
+          Pilih rute populer atau masukkan kota tujuan Anda. Dapatkan rekomendasi armada, estimasi waktu tempuh, rincian biaya indikatif, dan kirimkan langsung sebagai format penawaran resmi ke WhatsApp AFM GL.
         </p>
+      </div>
+
+      <!-- Quick Preset Buttons -->
+      <div class="mb-6 flex flex-wrap items-center justify-center gap-2 text-xs">
+        <span class="font-bold text-slate-600 mr-1">Rute Populer:</span>
+        <button data-preset-dest="Kendari, Sulawesi Tenggara" data-preset-mode="fuso" class="route-preset-btn px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 font-medium transition">
+          Makassar ➔ Kendari (Fuso)
+        </button>
+        <button data-preset-dest="Palu, Sulawesi Tengah" data-preset-mode="fuso" class="route-preset-btn px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 font-medium transition">
+          Makassar ➔ Palu (Trans-Sulawesi)
+        </button>
+        <button data-preset-dest="Mamuju, Sulawesi Barat" data-preset-mode="fuso" class="route-preset-btn px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 font-medium transition">
+          Makassar ➔ Mamuju (Fuso)
+        </button>
+        <button data-preset-dest="Surabaya, Jawa Timur" data-preset-mode="sea" class="route-preset-btn px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 font-medium transition">
+          Makassar ➔ Surabaya (Sea Freight)
+        </button>
+        <button data-preset-dest="Jakarta (Jabodetabek)" data-preset-mode="sea" class="route-preset-btn px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 font-medium transition">
+          Makassar ➔ Jakarta (Kapal Laut)
+        </button>
+        <button data-preset-dest="Balikpapan, Kalimantan Timur" data-preset-mode="sea" class="route-preset-btn px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 font-medium transition">
+          Makassar ➔ Balikpapan (Selat Makassar)
+        </button>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         
-        <!-- Left: Form inputs -->
-        <div class="lg:col-span-7 bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
-          <form id="rfqForm" class="space-y-5" onsubmit="event.preventDefault();">
+        <!-- Calculator Inputs Form -->
+        <div class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+          <h3 class="text-lg font-bold text-navy-primary mb-4 pb-3 border-b border-slate-100 flex items-center justify-between">
+            <span>Form Parameter Kargo</span>
+            <span class="text-xs font-normal text-slate-500">Lengkapi data di bawah</span>
+          </h3>
+
+          <div class="space-y-4">
             
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label for="rfqOrigin" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                <label for="calcOrigin" class="block text-xs font-bold text-slate-700 uppercase mb-1">
                   Titik Asal (Origin)
                 </label>
-                <select id="rfqOrigin" class="w-full bg-white border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                <select id="calcOrigin" class="w-full bg-slate-50 border border-slate-300 rounded-lg px-3 py-2 text-sm text-slate-900 focus:bg-white focus:ring-2 focus:ring-navy-primary focus:outline-none">
                   <option value="Makassar (Sulawesi Selatan)" selected>Makassar (Kantor Pusat AFM GL)</option>
-                  <option value="Jakarta (Jabodetabek)">Jakarta (Jabodetabek)</option>
-                  <option value="Surabaya (Jawa Timur)">Surabaya (Jawa Timur)</option>
-                  <option value="Balikpapan (Kalimantan Timur)">Balikpapan (Kalimantan Timur)</option>
-                  <option value="Banjarmasin (Kalimantan Selatan)">Banjarmasin (Kalimantan Selatan)</option>
-                  <option value="Manado (Sulawesi Utara)">Manado (Sulawesi Utara)</option>
-                  <option value="Palu (Sulawesi Tengah)">Palu (Sulawesi Tengah)</option>
-                  <option value="Kendari (Sulawesi Tenggara)">Kendari (Sulawesi Tenggara)</option>
-                  <option value="Ambon (Maluku)">Ambon (Maluku)</option>
-                  <option value="Jayapura / Sorong (Papua)">Jayapura / Sorong (Papua)</option>
+                  <option value="Jakarta">Jakarta (Jabodetabek)</option>
+                  <option value="Surabaya">Surabaya (Jawa Timur)</option>
+                  <option value="Balikpapan">Balikpapan (Kalimantan Timur)</option>
+                  <option value="Palu">Palu (Sulawesi Tengah)</option>
+                  <option value="Kendari">Kendari (Sulawesi Tenggara)</option>
+                  <option value="Manado">Manado (Sulawesi Utara)</option>
                 </select>
               </div>
 
               <div>
-                <label for="rfqDestination" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
-                  Tujuan Pengiriman (Destination)
+                <label for="calcDestination" class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                  Kota Tujuan (Destination)
                 </label>
-                <input type="text" id="rfqDestination" placeholder="Contoh: Palu, Mamuju, Surabaya, atau Internasional" value="Kendari, Sulawesi Tenggara" class="w-full bg-white border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                <input type="text" id="calcDestination" value="Kendari, Sulawesi Tenggara" placeholder="Ketik nama kota..." class="w-full bg-slate-50 border border-slate-300 rounded-lg px-3 py-2 text-sm text-slate-900 focus:bg-white focus:ring-2 focus:ring-navy-primary focus:outline-none">
               </div>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label for="rfqCargoType" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
-                  Jenis Muatan (Cargo)
+                <label for="calcMode" class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                  Pilihan Moda & Armada
                 </label>
-                <select id="rfqCargoType" class="w-full bg-white border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                <select id="calcMode" class="w-full bg-slate-50 border border-slate-300 rounded-lg px-3 py-2 text-sm text-slate-900 focus:bg-white focus:ring-2 focus:ring-navy-primary focus:outline-none font-semibold text-navy-primary">
+                  <option value="fuso" selected>Truk Fuso (Darat Antarkota)</option>
+                  <option value="sea">Sea Freight (Kapal Laut / FCL / LCL)</option>
+                  <option value="air">Air Freight (Kargo Udara Kilat)</option>
+                  <option value="multimoda">Multimoda (Kombinasi Darat + Laut)</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="calcCargoType" class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                  Jenis Muatan (Cargo Type)
+                </label>
+                <select id="calcCargoType" class="w-full bg-slate-50 border border-slate-300 rounded-lg px-3 py-2 text-sm text-slate-900 focus:bg-white focus:ring-2 focus:ring-navy-primary focus:outline-none">
                   <option value="General Cargo (Barang Umum)">General Cargo (Barang Umum)</option>
-                  <option value="Komoditas Hasil Bumi / Pertanian">Komoditas Hasil Bumi / Pertanian</option>
-                  <option value="Mesin & Suku Cadang Industri">Mesin & Suku Cadang Industri</option>
+                  <option value="Komoditas Hasil Bumi">Komoditas Hasil Bumi / Pangan</option>
+                  <option value="Mesin & Material Industri">Mesin & Sparepart Industri</option>
                   <option value="Material Konstruksi & Proyek">Material Konstruksi & Proyek</option>
-                  <option value="Barang Konsumsi / FMCG">Barang Konsumsi / FMCG</option>
-                  <option value="Barang Fragile / Perlu Penanganan Khusus">Barang Fragile / Perlu Penanganan Khusus</option>
-                </select>
-              </div>
-
-              <div>
-                <label for="rfqTransportMode" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
-                  Pilihan Moda Transportasi
-                </label>
-                <select id="rfqTransportMode" class="w-full bg-white border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none">
-                  <option value="Truk Fuso Darat" selected>Truk Fuso (Darat / Lintasan Antarkota)</option>
-                  <option value="Sea Freight (Laut)">Sea Freight (Kapal Kontainer / Laut)</option>
-                  <option value="Air Freight (Udara)">Air Freight (Kargo Udara Kilat)</option>
-                  <option value="Multimodal Terpadu">Multimodal (Kombinasi Darat + Laut + Udara)</option>
+                  <option value="Consumer Goods (FMCG)">Consumer Goods (FMCG)</option>
+                  <option value="Fragile / Muatan Khusus">Fragile / Butuh Penanganan Khusus</option>
                 </select>
               </div>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label for="rfqWeight" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
-                  Estimasi Berat Total (Kg)
-                </label>
-                <input type="number" id="rfqWeight" value="3500" min="1" step="50" class="w-full bg-white border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none">
+            <div>
+              <label for="calcWeight" class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                Estimasi Berat Kargo (Kilogram / Kg)
+              </label>
+              <div class="relative">
+                <input type="number" id="calcWeight" value="2500" min="50" step="50" class="w-full bg-slate-50 border border-slate-300 rounded-lg pl-3 pr-12 py-2 text-sm text-slate-900 focus:bg-white focus:ring-2 focus:ring-navy-primary focus:outline-none font-bold">
+                <span class="absolute right-3 top-2 text-xs font-bold text-slate-400">KG</span>
               </div>
-
-              <div>
-                <label for="rfqNotes" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
-                  Catatan Handling / Waktu Target
-                </label>
-                <input type="text" id="rfqNotes" placeholder="Misal: Perlu bongkar muat cepat / butuh terpal" value="Pengiriman rutin mingguan, butuh konfirmasi jadwal" class="w-full bg-white border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm text-slate-900 focus:ring-2 focus:ring-amber-500 focus:outline-none">
-              </div>
+              <p class="text-[11px] text-slate-500 mt-1">*Kapasitas Fuso standar: 8.000 s/d 15.000 Kg (30 - 45 CBM).</p>
             </div>
 
-            <p class="text-xs text-slate-500">
-              *Data estimasi akan langsung disesuaikan secara dinamis pada panel sebelah kanan.
-            </p>
-          </form>
+            <div class="pt-2">
+              <button id="btnCalculate" class="w-full flex items-center justify-center gap-2 bg-navy-primary hover:bg-navy-dark text-white font-bold py-3 px-4 rounded-xl shadow transition">
+                <svg class="w-5 h-5 text-gold-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                Hitung Estimasi Rute Sekarang
+              </button>
+            </div>
+
+          </div>
         </div>
 
-        <!-- Right: Live calculated recommendations & WhatsApp trigger -->
-        <div class="lg:col-span-5 bg-gradient-to-br from-brand-950 to-slate-900 text-white p-6 sm:p-8 rounded-2xl border border-slate-800 shadow-xl relative overflow-hidden">
-          <div class="absolute -right-10 -bottom-10 w-44 h-44 bg-amber-500/10 rounded-full blur-2xl"></div>
-          
-          <div class="flex items-center justify-between pb-4 border-b border-slate-800">
-            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">Hasil Analisis Rute</span>
-            <span class="px-2 py-0.5 rounded text-[11px] bg-slate-800 text-slate-300 border border-slate-700">Respons Cepat</span>
-          </div>
-
-          <div class="space-y-4 py-5 text-sm">
+        <!-- Calculated Result Output Card -->
+        <div id="calcResultCard" class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-2xl border-2 border-navy-primary/20 shadow-md">
+          <div class="flex items-center justify-between pb-3 border-b border-slate-200">
             <div>
-              <div class="text-xs text-slate-400">Ringkasan Muatan:</div>
-              <div id="rfqSummaryText" class="font-semibold text-slate-100 text-sm mt-0.5 leading-snug">
-                Pengiriman kargo dari Makassar ke Kendari...
-              </div>
+              <span class="text-xs font-bold text-gold-accent uppercase">Hasil Kalkulasi Rute</span>
+              <h4 id="resOriginDest" class="text-base sm:text-lg font-extrabold text-navy-primary">Makassar ➔ Kendari</h4>
             </div>
-
-            <div class="p-3 bg-slate-800/80 rounded-xl border border-slate-700/80 space-y-2">
-              <div class="flex justify-between items-center text-xs">
-                <span class="text-slate-400">Rekomendasi Armada:</span>
-                <span id="rfqRecommendedFleet" class="text-amber-400 font-bold">Armada Truk Fuso</span>
-              </div>
-              <div class="flex justify-between items-center text-xs">
-                <span class="text-slate-400">Estimasi Transit Time:</span>
-                <span id="rfqEstimatedTime" class="text-emerald-400 font-bold">1 - 3 Hari (Jalur Trans Sulawesi)</span>
-              </div>
-              <div class="flex justify-between items-center text-xs">
-                <span class="text-slate-400">Tipe Pelayanan:</span>
-                <span class="text-slate-200 font-medium">Door-to-Door / Port-to-Door JPT</span>
-              </div>
-            </div>
-
-            <div class="space-y-1 text-xs text-slate-400">
-              <p>✓ Didukung jaringan mitra transportasi terkoordinasi</p>
-              <p>✓ Dilengkapi dokumen resmi (Surat Jalan & Proof of Delivery)</p>
-              <p>✓ Monitoring koordinasi pengemudi / operator berkala</p>
-            </div>
+            <span class="px-2.5 py-1 text-xs font-bold rounded bg-emerald-100 text-emerald-800">
+              Estimasi Siap
+            </span>
           </div>
 
-          <div class="pt-4 border-t border-slate-800">
-            <a id="sendWaRfqBtn" href="#" target="_blank" class="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-bold py-3 px-5 rounded-xl shadow-lg transition transform hover:-translate-y-0.5 text-sm">
+          <div class="py-4 space-y-3.5 text-sm">
+            
+            <div class="grid grid-cols-2 gap-3">
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div class="text-xs text-slate-500 font-medium">Jarak Tempuh Lintasan:</div>
+                <div id="resDistance" class="text-base font-extrabold text-navy-primary mt-0.5">± 980 Km</div>
+              </div>
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div class="text-xs text-slate-500 font-medium">Estimasi Waktu Tiba:</div>
+                <div id="resDuration" class="text-base font-extrabold text-emerald-700 mt-0.5">2 - 3 Hari</div>
+              </div>
+            </div>
+
+            <div class="p-3.5 bg-blue-50/60 rounded-xl border border-blue-200">
+              <div class="text-xs text-blue-900 font-medium">Rekomendasi Sarana Armada:</div>
+              <div id="resFleet" class="text-sm font-extrabold text-navy-primary mt-0.5">
+                Truk Fuso Box Standar (Kapasitas s/d 8-15 Ton)
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div class="text-xs text-slate-500 font-medium">Tarif Dasar Indikatif:</div>
+                <div id="resRatePerKg" class="text-sm font-bold text-slate-800 mt-0.5">Rp 2.800 / Kg</div>
+              </div>
+              <div class="p-3 bg-amber-50 rounded-xl border border-amber-200">
+                <div class="text-xs text-amber-900 font-medium">Total Estimasi Nilai:</div>
+                <div id="resEstTotal" class="text-base font-extrabold text-amber-700 mt-0.5">Rp 7.000.000</div>
+              </div>
+            </div>
+
+            <div class="text-xs space-y-1 text-slate-600 bg-slate-50 p-3 rounded-lg border border-slate-200">
+              <div><strong>Penanganan:</strong> <span id="resHandling">Door-to-Door, Bongkar Muat Terjadwal, Terpal Kedap Air</span></div>
+              <div><strong>Catatan Rute:</strong> <span id="resNotes">Rute Trans-Sulawesi via Penyeberangan Bajoe - Kolaka atau jalan poros darat.</span></div>
+            </div>
+
+          </div>
+
+          <div class="pt-3 border-t border-slate-200">
+            <a id="btnSendCalcWA" href="#" target="_blank" class="w-full flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl shadow transition">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.35.491 1.199.534 1.286.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.861.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"></path></svg>
-              Kirim RFQ ke WhatsApp (0852-4008-6288)
+              Kirim Hasil Kalkulasi ke WhatsApp Resmi (0852-4008-6288)
             </a>
             <p class="text-center text-[11px] text-slate-400 mt-2">
-              Pesan terformat otomatis untuk penawaran resmi dan negosiasi tarif.
+              *Tarif indikatif, dapat disesuaikan dengan volume berkala atau kontrak jangka panjang.
             </p>
           </div>
 
@@ -931,451 +457,284 @@
     </div>
   </section>
 
-  <!-- OPERATIONAL NETWORK & SARANA TRANSPORTASI (FLEET SHOWCASE) -->
-  <section class="py-16 sm:py-20 bg-slate-900 text-white relative">
+  <!-- 5 CORE SERVICES SECTION -->
+  <section id="layanan" class="py-16 sm:py-20 bg-white border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center max-w-3xl mx-auto mb-12">
-        <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Jaringan & Sarana Transportasi</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-1">
-          Connected Across Transportation Networks
+        <span class="text-xs font-bold text-gold-accent uppercase tracking-widest">Layanan Logistik & JPT</span>
+        <h2 class="text-3xl font-extrabold text-navy-primary mt-1">
+          Transportation & Logistics Solutions
         </h2>
-        <p class="text-slate-300 mt-3 text-sm sm:text-base">
-          AFM GL mengembangkan jaringan transportasi dan kemitraan untuk mendukung kebutuhan pengiriman pelanggan pada cakupan <strong>domestik dan internasional</strong> dengan pendekatan berbasis jaringan.
+        <p class="text-slate-600 text-sm sm:text-base mt-2">
+          AFM GL menyediakan layanan Jasa Pengurusan Transportasi (JPT) / Freight Forwarding dengan mengorganisasikan, mengatur, dan mengurus pengiriman barang atas nama pelanggan melalui jaringan transportasi dan mitra terpercaya.
         </p>
       </div>
 
-      <!-- Network Coverage Tabs -->
-      <div class="flex justify-center border-b border-slate-800 mb-8 gap-2">
-        <button data-fleet-target="panelFuso" class="fleet-tab-btn px-5 py-3 text-xs sm:text-sm font-bold border-b-2 border-amber-400 text-amber-400 bg-slate-800 rounded-t-lg transition">
-          Armada Truk Fuso (Darat)
-        </button>
-        <button data-fleet-target="panelSea" class="fleet-tab-btn px-5 py-3 text-xs sm:text-sm font-bold border-b-2 border-transparent text-slate-400 hover:text-white rounded-t-lg transition">
-          Sea Freight (Pelayaran Laut)
-        </button>
-        <button data-fleet-target="panelAir" class="fleet-tab-btn px-5 py-3 text-xs sm:text-sm font-bold border-b-2 border-transparent text-slate-400 hover:text-white rounded-t-lg transition">
-          Air Freight (Kargo Udara)
-        </button>
-        <button data-fleet-target="panelInter" class="fleet-tab-btn px-5 py-3 text-xs sm:text-sm font-bold border-b-2 border-transparent text-slate-400 hover:text-white rounded-t-lg transition">
-          Cakupan Internasional
-        </button>
-      </div>
-
-      <!-- Fleet Panels -->
-      <div class="bg-slate-800/60 border border-slate-700 rounded-2xl p-6 sm:p-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         
-        <!-- Panel 1: Truk Fuso -->
-        <div id="panelFuso" class="fleet-panel">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <div class="lg:col-span-7 space-y-4">
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                Sarana Transportasi Utama
-              </div>
-              <h3 class="text-2xl font-extrabold text-white">Armada Truk Fuso: Efisiensi & Kapasitas Kargo Darat</h3>
-              <p class="text-slate-300 text-sm leading-relaxed">
-                Truk Fuso merupakan tulang punggung armada transportasi darat AFM GL untuk menghubungkan rute-rute strategis di pulau Sulawesi (Trans Sulawesi) dan rute antarprovinsi di Indonesia. Sangat cocok untuk kargo komersial, bahan bangunan, sembako, dan suku cadang industri dengan volume sedang hingga besar.
-              </p>
-              <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs pt-2">
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Tipe Armada:</div>
-                  <div class="text-white font-bold mt-0.5">Fuso Box / Bak / Loss Bak</div>
-                </div>
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Kapasitas Muatan:</div>
-                  <div class="text-amber-400 font-bold mt-0.5">8 - 15 Ton (30 - 45 CBM)</div>
-                </div>
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Konektivitas:</div>
-                  <div class="text-white font-bold mt-0.5">Makassar - Seluruh Sulawesi</div>
-                </div>
-              </div>
+        <!-- Service 1 -->
+        <div class="corporate-card p-6 rounded-2xl flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="w-10 h-10 rounded-xl bg-blue-50 text-navy-primary font-bold flex items-center justify-center">01</span>
+              <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-slate-100 text-slate-700">KBLI 52311</span>
             </div>
-            <div class="lg:col-span-5 bg-gradient-to-br from-slate-900 to-brand-950 p-6 rounded-xl border border-slate-700">
-              <h4 class="text-amber-400 font-bold text-sm mb-3">Keunggulan Layanan Truk Fuso AFM GL</h4>
-              <ul class="space-y-2.5 text-xs text-slate-300">
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Penjadwalan muatan terorganisir langsung dari titik gudang atau pabrik (pick-up).</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Pengikatan kargo terstandar (lashing & terpal kedap air) untuk proteksi maksimal.</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Pemeriksaan kondisi fisik armada berkala demi keselamatan perjalanan lintas kota.</span>
-                </li>
-              </ul>
-            </div>
+            <h3 class="text-lg font-bold text-navy-primary">Freight Forwarding / JPT</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mt-2 leading-relaxed">
+              Pengorganisasian dan pengurusan pengiriman barang dari titik asal hingga tujuan sesuai kebutuhan pelanggan dengan kelengkapan dokumen sah.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500 font-medium">
+            ✓ Pengurusan surat jalan & kepabeanan
           </div>
         </div>
 
-        <!-- Panel 2: Sea Freight -->
-        <div id="panelSea" class="fleet-panel hidden">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <div class="lg:col-span-7 space-y-4">
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-300 border border-blue-500/30">
-                Konektivitas Jalur Maritim
-              </div>
-              <h3 class="text-2xl font-extrabold text-white">Sea Freight & Jaringan Pelabuhan Terintegrasi</h3>
-              <p class="text-slate-300 text-sm leading-relaxed">
-                Memanfaatkan posisi strategis Makassar sebagai hub maritim Kawasan Timur Indonesia (KTI). Melayani pengiriman Full Container Load (FCL 20ft & 40ft), Less than Container Load (LCL), serta muatan breakbulk ke pelabuhan-pelabuhan utama nusantara (Tanjung Perak, Tanjung Priok, Balikpapan, Bitung, dsb.).
-              </p>
-              <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs pt-2">
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Hub Pelabuhan:</div>
-                  <div class="text-white font-bold mt-0.5">Pelabuhan Soekarno-Hatta Makassar</div>
-                </div>
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Pilihan Petikemas:</div>
-                  <div class="text-blue-400 font-bold mt-0.5">Dry Container, Reefer, Flat Rack</div>
-                </div>
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Jadwal Kapal:</div>
-                  <div class="text-white font-bold mt-0.5">Rutin Mingguan (Scheduled)</div>
-                </div>
-              </div>
+        <!-- Service 2 -->
+        <div class="corporate-card p-6 rounded-2xl flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="w-10 h-10 rounded-xl bg-amber-50 text-amber-800 font-bold flex items-center justify-center">02</span>
+              <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-slate-100 text-slate-700">Truk Fuso</span>
             </div>
-            <div class="lg:col-span-5 bg-gradient-to-br from-slate-900 to-brand-950 p-6 rounded-xl border border-slate-700">
-              <h4 class="text-blue-400 font-bold text-sm mb-3">Keuntungan Sea Freight AFM GL</h4>
-              <ul class="space-y-2.5 text-xs text-slate-300">
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Efisiensi biaya optimal untuk tonase dan volume kargo skala besar.</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Pengurusan dokumen Bill of Lading (B/L) dan stuffing/stripping pelabuhan.</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Kombinasi multimoda langsung dari dermaga ke lokasi gudang menggunakan armada Fuso.</span>
-                </li>
-              </ul>
-            </div>
+            <h3 class="text-lg font-bold text-navy-primary">Transportation Coordination</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mt-2 leading-relaxed">
+              Koordinasi kebutuhan transportasi dengan memilih jaringan, moda, dan armada yang sesuai dengan karakteristik muatan kargo.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500 font-medium">
+            ✓ Penyesuaian armada Truk Fuso Box/Bak
           </div>
         </div>
 
-        <!-- Panel 3: Air Freight -->
-        <div id="panelAir" class="fleet-panel hidden">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <div class="lg:col-span-7 space-y-4">
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-                Kecepatan & Kargo Prioritas
-              </div>
-              <h3 class="text-2xl font-extrabold text-white">Air Freight: Distribusi Kargo Cepat via Udara</h3>
-              <p class="text-slate-300 text-sm leading-relaxed">
-                Solusi bagi pengiriman kargo berbatas waktu ketat (time-sensitive), dokumen krusial, sampel bernilai tinggi, maupun suku cadang darurat. Terhubung langsung dengan Bandara Internasional Sultan Hasanuddin Makassar dan maskapai penerbangan kargo nasional.
-              </p>
-              <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs pt-2">
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Bandara Basis:</div>
-                  <div class="text-white font-bold mt-0.5">Sultan Hasanuddin (UPG)</div>
-                </div>
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Waktu Transit:</div>
-                  <div class="text-emerald-400 font-bold mt-0.5">1 - 2 Hari Kerja</div>
-                </div>
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Penanganan:</div>
-                  <div class="text-white font-bold mt-0.5">Prioritas & Pengawalan Dokumen</div>
-                </div>
-              </div>
+        <!-- Service 3 -->
+        <div class="corporate-card p-6 rounded-2xl flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-800 font-bold flex items-center justify-center">03</span>
+              <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-slate-100 text-slate-700">Darat • Laut • Udara</span>
             </div>
-            <div class="lg:col-span-5 bg-gradient-to-br from-slate-900 to-brand-950 p-6 rounded-xl border border-slate-700">
-              <h4 class="text-emerald-400 font-bold text-sm mb-3">Keunggulan Air Freight AFM GL</h4>
-              <ul class="space-y-2.5 text-xs text-slate-300">
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Penerbitan Air Waybill (AWB) cepat dan koordinasi kargo bandara.</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Pemeriksaan regulasi kargo pesawat (Dangerous Goods & General Cargo).</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Layanan penjemputan dari lokasi pengirim langsung ke terminal kargo bandara.</span>
-                </li>
-              </ul>
-            </div>
+            <h3 class="text-lg font-bold text-navy-primary">Multimodal Transportation</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mt-2 leading-relaxed">
+              Pengaturan kebutuhan transportasi yang menghubungkan berbagai moda (Fuso darat, kapal laut, pesawat udara) sesuai rute dan batas waktu.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500 font-medium">
+            ✓ Integrasi rute kepulauan nusantara
           </div>
         </div>
 
-        <!-- Panel 4: International -->
-        <div id="panelInter" class="fleet-panel hidden">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <div class="lg:col-span-7 space-y-4">
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-purple-500/20 text-purple-300 border border-purple-500/30">
-                Cakupan Global
-              </div>
-              <h3 class="text-2xl font-extrabold text-white">Kemitraan Jaringan Internasional (Global Logistics)</h3>
-              <p class="text-slate-300 text-sm leading-relaxed">
-                Mendukung kebutuhan logistik dengan cakupan pengiriman internasional sesuai karakteristik layanan, kebutuhan pelanggan, dan jaringan mitra forwarder global yang terafiliasi dengan standar ALFI/ILFA.
-              </p>
-              <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs pt-2">
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Cakupan Rute:</div>
-                  <div class="text-white font-bold mt-0.5">Asia Pasifik, Timur Tengah, Global</div>
-                </div>
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Kepabeanan:</div>
-                  <div class="text-purple-400 font-bold mt-0.5">Akses NIB & Dokumen Ekspor-Impor</div>
-                </div>
-                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-700">
-                  <div class="text-slate-400">Incoterms:</div>
-                  <div class="text-white font-bold mt-0.5">FOB, CIF, CFR, Ex-Works</div>
-                </div>
-              </div>
+        <!-- Service 4 -->
+        <div class="corporate-card p-6 rounded-2xl flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="w-10 h-10 rounded-xl bg-purple-50 text-purple-800 font-bold flex items-center justify-center">04</span>
+              <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-slate-100 text-slate-700">Distribusi</span>
             </div>
-            <div class="lg:col-span-5 bg-gradient-to-br from-slate-900 to-brand-950 p-6 rounded-xl border border-slate-700">
-              <h4 class="text-purple-400 font-bold text-sm mb-3">Dukungan Pengiriman Internasional</h4>
-              <ul class="space-y-2.5 text-xs text-slate-300">
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Pendampingan tata cara kepabeanan dan legalitas perdagangan antanegara.</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Konsolidasi muatan ekspor komoditas unggulan Indonesia Timur.</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-                  <span>Kerjasama dengan agen internasional untuk penyelesaian customs clearance di negara tujuan.</span>
-                </li>
-              </ul>
+            <h3 class="text-lg font-bold text-navy-primary">Distribution Management</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mt-2 leading-relaxed">
+              Pengelolaan kebutuhan distribusi barang melalui jaringan transportasi dan mitra yang tersedia secara konsisten dan terjadwal.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500 font-medium">
+            ✓ Manajemen rute distribusi multikota
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="corporate-card p-6 rounded-2xl flex flex-col justify-between md:col-span-2 lg:col-span-2">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-800 font-bold flex items-center justify-center">05</span>
+              <span class="text-xs font-semibold px-2.5 py-0.5 rounded bg-slate-100 text-slate-700">ALFI / ILFA Partner</span>
             </div>
+            <h3 class="text-lg font-bold text-navy-primary">Logistics Network Solutions</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mt-2 leading-relaxed">
+              Pemanfaatan jaringan dan kemitraan transportasi untuk memperluas pilihan solusi pengiriman kargo, baik pada rute komersial utama maupun pelosok, dengan transparansi tarif dan kepastian jadwal.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500 font-medium">
+            ✓ Solusi kustom berdasarkan kebutuhan aktual pelanggan
           </div>
         </div>
 
       </div>
 
-      <!-- How Our Network Works Flowchart -->
-      <div class="mt-14 pt-10 border-t border-slate-800">
-        <h4 class="text-center font-bold text-slate-300 text-xs sm:text-sm uppercase tracking-widest mb-8">
-          Alur Koordinasi Jaringan (How Our Network Works)
-        </h4>
-        <div class="grid grid-cols-1 sm:grid-cols-5 gap-3 text-center mb-12">
-          <div class="bg-slate-800 p-4 rounded-xl border border-slate-700 flex flex-col items-center justify-center">
-            <span class="w-8 h-8 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-xs mb-2">1</span>
-            <div class="font-bold text-white text-xs">Customer Requirement</div>
-            <div class="text-[11px] text-slate-400 mt-1">Identifikasi kebutuhan spesifik</div>
+    </div>
+  </section>
+
+  <!-- OPERATIONAL NETWORK & ACTUAL PDF INFOGRAPHICS (PAGES 10 & 12) -->
+  <section class="py-16 sm:py-20 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs font-bold text-gold-accent uppercase tracking-widest">Jaringan & Kemitraan</span>
+        <h2 class="text-3xl font-extrabold text-navy-primary mt-1">
+          Connected Across Transportation Networks
+        </h2>
+        <p class="text-slate-600 text-sm mt-2">
+          AFM GL mengembangkan jaringan transportasi dan kemitraan pada cakupan domestik dan internasional. Sebagai bagian dari <strong>ALFI/ILFA</strong>, kami terhubung dengan ekosistem industri transportasi nasional.
+        </p>
+      </div>
+
+      <!-- Real Visuals from PDF Pages 10 & 12 -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-12">
+        
+        <!-- Left: Global Network Map (PDF Page 10) -->
+        <div class="lg:col-span-6 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+          <div class="overflow-hidden rounded-xl border border-slate-100">
+            <img src="assets/images/network-global-map.jpg" alt="Connected Network Across Transportation - AFM GL" class="w-full h-auto object-cover">
           </div>
-          <div class="bg-slate-800 p-4 rounded-xl border border-slate-700 flex flex-col items-center justify-center">
-            <span class="w-8 h-8 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-xs mb-2">2</span>
-            <div class="font-bold text-white text-xs">Cargo & Route Assessment</div>
-            <div class="text-[11px] text-slate-400 mt-1">Analisis muatan, volume & rute</div>
-          </div>
-          <div class="bg-slate-800 p-4 rounded-xl border border-slate-700 flex flex-col items-center justify-center">
-            <span class="w-8 h-8 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-xs mb-2">3</span>
-            <div class="font-bold text-white text-xs">Network & Mode Selection</div>
-            <div class="text-[11px] text-slate-400 mt-1">Pemilihan armada & mitra tepat</div>
-          </div>
-          <div class="bg-slate-800 p-4 rounded-xl border border-slate-700 flex flex-col items-center justify-center">
-            <span class="w-8 h-8 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-xs mb-2">4</span>
-            <div class="font-bold text-white text-xs">Transportation Coordination</div>
-            <div class="text-[11px] text-slate-400 mt-1">Pengaturan dispatch & loading</div>
-          </div>
-          <div class="bg-slate-800 p-4 rounded-xl border border-slate-700 flex flex-col items-center justify-center">
-            <span class="w-8 h-8 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-xs mb-2">5</span>
-            <div class="font-bold text-white text-xs">Delivery & POD</div>
-            <div class="text-[11px] text-slate-400 mt-1">Penerimaan & bukti serah terima</div>
+          <div class="mt-4 text-xs space-y-1.5">
+            <div class="font-bold text-navy-primary text-sm">Cakupan Domestik & Internasional</div>
+            <p class="text-slate-600">
+              Pendekatan berbasis jaringan memungkinkan AFM GL menyesuaikan pilihan transportasi berdasarkan karakteristik kargo, volume atau berat, rute lintasan, serta kebutuhan waktu operasional.
+            </p>
           </div>
         </div>
 
-        <!-- Network Model & Network Principles (Page 12) -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-          
-          <!-- Our Network Model -->
-          <div class="lg:col-span-6 bg-slate-900/90 p-6 rounded-2xl border border-slate-700 flex flex-col justify-between">
-            <div>
-              <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Model Ekosistem</span>
-              <h4 class="text-lg font-bold text-white mt-1 mb-4">Our Network Model</h4>
-              <div class="space-y-3">
-                <div class="p-3 bg-slate-800 rounded-xl border border-slate-700 flex items-center gap-3">
-                  <span class="w-8 h-8 rounded-lg bg-blue-500/20 text-blue-400 font-bold flex items-center justify-center text-xs shrink-0">C</span>
-                  <div>
-                    <div class="text-xs font-bold text-white">CUSTOMER</div>
-                    <div class="text-[11px] text-slate-400">Kebutuhan spesifik dan tujuan pengiriman barang</div>
-                  </div>
-                </div>
-                <div class="text-center text-amber-400 text-xs">↓</div>
-                <div class="p-3 bg-slate-800 rounded-xl border border-amber-500/40 flex items-center gap-3">
-                  <span class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 font-bold flex items-center justify-center text-xs shrink-0">AFM</span>
-                  <div>
-                    <div class="text-xs font-bold text-amber-400">AFM GL (Hub Manajemen)</div>
-                    <div class="text-[11px] text-slate-300">Planning • Coordination • Logistics Management</div>
-                  </div>
-                </div>
-                <div class="text-center text-amber-400 text-xs">↓</div>
-                <div class="p-3 bg-slate-800 rounded-xl border border-slate-700 flex items-center gap-3">
-                  <span class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 font-bold flex items-center justify-center text-xs shrink-0">TN</span>
-                  <div>
-                    <div class="text-xs font-bold text-white">TRANSPORTATION NETWORK</div>
-                    <div class="text-[11px] text-slate-400">Fleet (Truk Fuso) • Trucking • Multimodal Transportation</div>
-                  </div>
-                </div>
-                <div class="text-center text-amber-400 text-xs">↓</div>
-                <div class="p-3 bg-slate-800 rounded-xl border border-slate-700 flex items-center gap-3">
-                  <span class="w-8 h-8 rounded-lg bg-purple-500/20 text-purple-400 font-bold flex items-center justify-center text-xs shrink-0">IN</span>
-                  <div>
-                    <div class="text-xs font-bold text-white">INDUSTRY NETWORK (ALFI / ILFA)</div>
-                    <div class="text-[11px] text-slate-400">Asosiasi Logistik dan Forwarder Indonesia</div>
-                  </div>
-                </div>
-                <div class="text-center text-amber-400 text-xs">↓</div>
-                <div class="p-3 bg-slate-800 rounded-xl border border-slate-700 flex items-center gap-3">
-                  <span class="w-8 h-8 rounded-lg bg-teal-500/20 text-teal-400 font-bold flex items-center justify-center text-xs shrink-0">D</span>
-                  <div>
-                    <div class="text-xs font-bold text-emerald-400">DELIVERY (Tujuan Pelanggan)</div>
-                    <div class="text-[11px] text-slate-400">Pengiriman tuntas dengan Proof of Delivery (POD) sah</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <!-- Right: Ecosystem Circle Diagram (PDF Page 12) -->
+        <div class="lg:col-span-6 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+          <div class="overflow-hidden rounded-xl border border-slate-100 flex items-center justify-center p-2 bg-slate-50">
+            <img src="assets/images/network-ecosystem-circle.jpg" alt="Ekosistem Kemitraan ALFI ILFA - AFM GL" class="max-h-72 w-auto object-contain">
           </div>
-
-          <!-- Our Network Principles -->
-          <div class="lg:col-span-6 bg-slate-900/90 p-6 rounded-2xl border border-slate-700 flex flex-col justify-between">
-            <div>
-              <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Fondasi Operasional</span>
-              <h4 class="text-lg font-bold text-white mt-1 mb-4">Our Network Principles</h4>
-              <div class="space-y-3.5 text-xs">
-                <div class="p-3 bg-slate-800/80 rounded-xl border border-slate-700">
-                  <div class="text-amber-400 font-bold text-sm">CONNECTED</div>
-                  <div class="text-slate-300 mt-1">Membangun keterhubungan dengan jaringan dan ekosistem industri transportasi nasional.</div>
-                </div>
-                <div class="p-3 bg-slate-800/80 rounded-xl border border-slate-700">
-                  <div class="text-amber-400 font-bold text-sm">COLLABORATIVE</div>
-                  <div class="text-slate-300 mt-1">Mengembangkan hubungan profesional jangka panjang dengan mitra dan pemangku kepentingan.</div>
-                </div>
-                <div class="p-3 bg-slate-800/80 rounded-xl border border-slate-700">
-                  <div class="text-amber-400 font-bold text-sm">RESPONSIVE</div>
-                  <div class="text-slate-300 mt-1">Menghubungkan kebutuhan pelanggan dengan solusi transportasi yang sesuai kondisi lapangan.</div>
-                </div>
-                <div class="p-3 bg-slate-800/80 rounded-xl border border-slate-700">
-                  <div class="text-amber-400 font-bold text-sm">RELIABLE</div>
-                  <div class="text-slate-300 mt-1">Membangun jaringan yang mendukung keandalan layanan dan ketepatan jadwal tiba kargo.</div>
-                </div>
-                <div class="p-3 bg-slate-800/80 rounded-xl border border-slate-700">
-                  <div class="text-amber-400 font-bold text-sm">PROFESSIONAL</div>
-                  <div class="text-slate-300 mt-1">Menjaga standar profesionalisme dan integritas tinggi dalam menjalankan kegiatan usaha.</div>
-                </div>
-              </div>
-            </div>
+          <div class="mt-4 text-xs space-y-1.5">
+            <div class="font-bold text-navy-primary text-sm">Our Network Model & ALFI / ILFA Partnership</div>
+            <p class="text-slate-600">
+              Menghubungkan Customer ➔ AFM GL (Planning & Coordination) ➔ Transportation Network (Truk Fuso & Multimoda) ➔ Asosiasi ALFI/ILFA ➔ Penerima (Delivery).
+            </p>
           </div>
+        </div>
 
+      </div>
+
+      <!-- 5 Network Principles -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 text-xs">
+        <div class="p-3.5 bg-white rounded-xl border border-slate-200">
+          <div class="font-bold text-navy-primary">CONNECTED</div>
+          <div class="text-slate-500 mt-1">Membangun keterhubungan ekosistem industri transportasi.</div>
+        </div>
+        <div class="p-3.5 bg-white rounded-xl border border-slate-200">
+          <div class="font-bold text-navy-primary">COLLABORATIVE</div>
+          <div class="text-slate-500 mt-1">Mengembangkan hubungan profesional dengan mitra kerja.</div>
+        </div>
+        <div class="p-3.5 bg-white rounded-xl border border-slate-200">
+          <div class="font-bold text-navy-primary">RESPONSIVE</div>
+          <div class="text-slate-500 mt-1">Merespons kebutuhan pelanggan dengan cepat & tepat.</div>
+        </div>
+        <div class="p-3.5 bg-white rounded-xl border border-slate-200">
+          <div class="font-bold text-navy-primary">RELIABLE</div>
+          <div class="text-slate-500 mt-1">Membangun jaringan yang mendukung keandalan layanan.</div>
+        </div>
+        <div class="p-3.5 bg-white rounded-xl border border-slate-200">
+          <div class="font-bold text-navy-primary">PROFESSIONAL</div>
+          <div class="text-slate-500 mt-1">Standar etika & tata kelola usaha yang bertanggung jawab.</div>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- HOW WE WORK: 8-STEP OPERATIONAL WORKFLOW (INTERACTIVE STEPPER) -->
-  <section id="alur-kerja" class="py-16 sm:py-24 bg-white border-b border-slate-200">
+  <!-- HOW WE WORK: 8-STEP OPERATIONAL STEPPER (PDF PAGE 11 WITH REAL LAPTOP PHOTO) -->
+  <section id="alur-kerja" class="py-16 sm:py-20 bg-white border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-12">
-        <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Sistem Operasional Terstruktur</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1">
-          Alur Kerja Operasional (How We Work)
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs font-bold text-gold-accent uppercase tracking-widest">Sistem Kerja Terstandar</span>
+        <h2 class="text-3xl font-extrabold text-navy-primary mt-1">
+          How We Work — 8 Tahapan Operasional
         </h2>
-        <p class="text-slate-600 mt-3 text-sm sm:text-base">
-          AFM GL menerapkan pendekatan operasional profesional yang dimulai dari pemahaman kebutuhan pelanggan hingga penyelesaian pengiriman dan dokumentasi.
+        <p class="text-slate-600 text-sm mt-2">
+          Prinsip Operasional: <span class="font-bold text-navy-primary">UNDERSTAND → PLAN → COORDINATE → MONITOR → DELIVER</span>
         </p>
-        <div class="inline-block mt-4 px-4 py-1.5 rounded-full bg-slate-100 border border-slate-300 text-xs font-semibold text-slate-800">
-          Prinsip Operasional: <span class="text-amber-600 font-bold">UNDERSTAND → PLAN → COORDINATE → MONITOR → DELIVER</span>
-        </div>
       </div>
 
-      <!-- Interactive 8 Steps Buttons Navigator -->
+      <!-- 8 Step Button Switchers -->
       <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 mb-8">
-        <button data-step-index="0" class="step-nav-btn p-3 rounded-xl border text-center transition flex flex-col items-center justify-center">
-          <span class="text-xs font-bold font-mono">01</span>
-          <span class="text-xs font-medium truncate w-full mt-0.5">Inquiry</span>
+        <button data-step-index="0" class="step-btn p-3 rounded-xl border border-slate-200 bg-white text-center hover:bg-slate-50 transition flex flex-col items-center">
+          <span class="step-num w-6 h-6 rounded-md bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center mb-1">01</span>
+          <span class="text-xs font-semibold truncate w-full">Inquiry</span>
         </button>
-        <button data-step-index="1" class="step-nav-btn p-3 rounded-xl border text-center transition flex flex-col items-center justify-center">
-          <span class="text-xs font-bold font-mono">02</span>
-          <span class="text-xs font-medium truncate w-full mt-0.5">Identification</span>
+        <button data-step-index="1" class="step-btn p-3 rounded-xl border border-slate-200 bg-white text-center hover:bg-slate-50 transition flex flex-col items-center">
+          <span class="step-num w-6 h-6 rounded-md bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center mb-1">02</span>
+          <span class="text-xs font-semibold truncate w-full">Identifikasi</span>
         </button>
-        <button data-step-index="2" class="step-nav-btn p-3 rounded-xl border text-center transition flex flex-col items-center justify-center">
-          <span class="text-xs font-bold font-mono">03</span>
-          <span class="text-xs font-medium truncate w-full mt-0.5">Solution & Quote</span>
+        <button data-step-index="2" class="step-btn p-3 rounded-xl border border-slate-200 bg-white text-center hover:bg-slate-50 transition flex flex-col items-center">
+          <span class="step-num w-6 h-6 rounded-md bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center mb-1">03</span>
+          <span class="text-xs font-semibold truncate w-full">Quotation</span>
         </button>
-        <button data-step-index="3" class="step-nav-btn p-3 rounded-xl border text-center transition flex flex-col items-center justify-center">
-          <span class="text-xs font-bold font-mono">04</span>
-          <span class="text-xs font-medium truncate w-full mt-0.5">Confirmation</span>
+        <button data-step-index="3" class="step-btn p-3 rounded-xl border border-slate-200 bg-white text-center hover:bg-slate-50 transition flex flex-col items-center">
+          <span class="step-num w-6 h-6 rounded-md bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center mb-1">04</span>
+          <span class="text-xs font-semibold truncate w-full">Konfirmasi</span>
         </button>
-        <button data-step-index="4" class="step-nav-btn p-3 rounded-xl border text-center transition flex flex-col items-center justify-center">
-          <span class="text-xs font-bold font-mono">05</span>
-          <span class="text-xs font-medium truncate w-full mt-0.5">Arrangement</span>
+        <button data-step-index="4" class="step-btn p-3 rounded-xl border border-slate-200 bg-white text-center hover:bg-slate-50 transition flex flex-col items-center">
+          <span class="step-num w-6 h-6 rounded-md bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center mb-1">05</span>
+          <span class="text-xs font-semibold truncate w-full">Armada</span>
         </button>
-        <button data-step-index="5" class="step-nav-btn p-3 rounded-xl border text-center transition flex flex-col items-center justify-center">
-          <span class="text-xs font-bold font-mono">06</span>
-          <span class="text-xs font-medium truncate w-full mt-0.5">Loading</span>
+        <button data-step-index="5" class="step-btn p-3 rounded-xl border border-slate-200 bg-white text-center hover:bg-slate-50 transition flex flex-col items-center">
+          <span class="step-num w-6 h-6 rounded-md bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center mb-1">06</span>
+          <span class="text-xs font-semibold truncate w-full">Loading</span>
         </button>
-        <button data-step-index="6" class="step-nav-btn p-3 rounded-xl border text-center transition flex flex-col items-center justify-center">
-          <span class="text-xs font-bold font-mono">07</span>
-          <span class="text-xs font-medium truncate w-full mt-0.5">Monitoring</span>
+        <button data-step-index="6" class="step-btn p-3 rounded-xl border border-slate-200 bg-white text-center hover:bg-slate-50 transition flex flex-col items-center">
+          <span class="step-num w-6 h-6 rounded-md bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center mb-1">07</span>
+          <span class="text-xs font-semibold truncate w-full">Monitoring</span>
         </button>
-        <button data-step-index="7" class="step-nav-btn p-3 rounded-xl border text-center transition flex flex-col items-center justify-center">
-          <span class="text-xs font-bold font-mono">08</span>
-          <span class="text-xs font-medium truncate w-full mt-0.5">POD & Report</span>
+        <button data-step-index="7" class="step-btn p-3 rounded-xl border border-slate-200 bg-white text-center hover:bg-slate-50 transition flex flex-col items-center">
+          <span class="step-num w-6 h-6 rounded-md bg-slate-100 text-slate-800 font-bold text-xs flex items-center justify-center mb-1">08</span>
+          <span class="text-xs font-semibold truncate w-full">POD & Report</span>
         </button>
       </div>
 
-      <!-- Active Step Detailed Display Card -->
-      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-10 shadow-sm transition-all duration-300">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <!-- Active Step Display Card with Real Laptop Photo from PDF Page 11 -->
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           
-          <!-- Step Details Left -->
+          <!-- Step Left Details -->
           <div class="lg:col-span-7 space-y-4">
             <div class="flex items-center gap-3">
-              <span id="activeStepNumber" class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 font-extrabold text-lg flex items-center justify-center shadow">
+              <span id="stepNumDisplay" class="w-10 h-10 rounded-xl bg-navy-primary text-white font-extrabold flex items-center justify-center text-base">
                 01
               </span>
               <div>
-                <span class="text-xs font-bold text-amber-600 uppercase tracking-wider">Tahapan Operasional</span>
-                <h3 id="activeStepName" class="text-2xl font-extrabold text-slate-900">Inquiry</h3>
+                <span class="text-xs font-bold text-gold-accent uppercase">Tahapan Alur Operasi</span>
+                <h3 id="stepNameDisplay" class="text-2xl font-extrabold text-navy-primary">Inquiry</h3>
               </div>
             </div>
 
-            <div id="activeStepTagline" class="text-sm font-semibold text-slate-700 bg-amber-100/60 text-amber-900 px-3 py-1.5 rounded-lg inline-block">
-              Penerimaan Permintaan Kebutuhan Pengiriman
+            <div id="stepTagDisplay" class="text-xs font-bold text-navy-dark bg-blue-100/70 px-3 py-1 rounded inline-block">
+              Permintaan Pelanggan
             </div>
 
-            <p id="activeStepDesc" class="text-slate-600 text-base leading-relaxed">
-              Menerima permintaan dan kebutuhan pengiriman dari pelanggan melalui kanal resmi AFM GL.
+            <p id="stepDescDisplay" class="text-slate-600 text-sm leading-relaxed">
+              Menerima permintaan dan kebutuhan pengiriman dari pelanggan melalui telepon, WhatsApp, email, atau pertemuan langsung.
             </p>
 
-            <div class="pt-3">
-              <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider mb-2">Tindakan Operasional Kunci:</h4>
-              <ul id="activeStepActions" class="space-y-2">
+            <div class="pt-2">
+              <div class="text-xs font-bold text-slate-800 uppercase mb-2">Tindakan Lapangan:</div>
+              <ul id="stepActionsDisplay" class="space-y-1.5">
                 <!-- Injected via JavaScript -->
               </ul>
             </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-3 text-xs">
+              <div class="p-3 bg-white rounded-lg border border-slate-200">
+                <span class="text-slate-400 font-medium">Output Dokumen:</span>
+                <div id="stepDocDisplay" class="font-bold text-navy-primary mt-0.5">Form Tiket Inquiry</div>
+              </div>
+              <div class="p-3 bg-white rounded-lg border border-slate-200">
+                <span class="text-slate-400 font-medium">Divisi Bertanggung Jawab:</span>
+                <div id="stepPicDisplay" class="font-bold text-navy-primary mt-0.5">Customer Service & Dispatch</div>
+              </div>
+            </div>
           </div>
 
-          <!-- Step Right Output / Deliverable Card -->
-          <div class="lg:col-span-5 bg-white p-6 rounded-xl border border-slate-200/90 shadow-sm space-y-4">
-            <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider">Spesifikasi Tahapan</h4>
-            
-            <div class="p-3.5 bg-slate-50 rounded-lg border border-slate-200">
-              <div class="text-xs text-slate-500 font-medium">Output Dokumen / Deliverable:</div>
-              <div id="activeStepOutput" class="text-slate-900 font-bold text-sm mt-0.5">
-                Form Tiket Inquiry & Nomor Tiket Permintaan
-              </div>
-            </div>
-
-            <div class="p-3.5 bg-slate-50 rounded-lg border border-slate-200">
-              <div class="text-xs text-slate-500 font-medium">Divisi Penanggung Jawab:</div>
-              <div id="activeStepResponsible" class="text-slate-900 font-semibold text-sm mt-0.5">
-                Customer Service & Operational Planning
-              </div>
-            </div>
-
-            <div class="text-xs text-slate-500 italic bg-amber-50/60 p-3 rounded-lg border border-amber-200/50">
-              “Setiap tahapan diarahkan untuk menjaga koordinasi, kejelasan informasi, dan kelancaran proses pengiriman.”
+          <!-- Step Right: Real Operations Laptop Photo from PDF Page 11 -->
+          <div class="lg:col-span-5">
+            <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
+              <img src="assets/images/operations-laptop.jpg" alt="Logistics Monitoring & Operations AFM GL" class="w-full h-auto rounded-lg object-cover">
+              <p class="text-[11px] text-slate-500 italic mt-2 text-center">
+                “Setiap tahapan diarahkan untuk menjaga koordinasi, kejelasan informasi, dan kelancaran proses pengiriman.”
+              </p>
             </div>
           </div>
 
@@ -1385,254 +744,261 @@
     </div>
   </section>
 
-  <!-- LEGALITAS RESMI & KEMITRAAN ALFI/ILFA (CREDIBILITY SECTION) -->
-  <section id="legalitas" class="py-16 sm:py-24 bg-slate-100 border-b border-slate-200">
+  <!-- =================================================================== -->
+  <!-- REAL LEGALITY DOCUMENTS SHOWCASE (PDF PAGES 13 & 14) -->
+  <!-- =================================================================== -->
+  <section id="legalitas" class="py-16 sm:py-20 bg-slate-50 border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center max-w-3xl mx-auto mb-12">
-        <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Kepatuhan Hukum & Standar Regulasi</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1">
-          Our Legality & Partnership
+        <span class="text-xs font-bold text-gold-accent uppercase tracking-widest">Kepatuhan Hukum & Legalitas Usaha</span>
+        <h2 class="text-3xl font-extrabold text-navy-primary mt-1">
+          Our Legality & Verifikasi Dokumen Resmi
         </h2>
-        <p class="text-slate-600 mt-2 text-sm sm:text-base">
-          PT Advanced Freight Management Global Logistic menjalankan kegiatan usaha sebagai badan hukum Perseroan Terbatas dengan legalitas lengkap dan klasifikasi usaha yang mendukung di bidang Jasa Pengurusan Transportasi.
+        <p class="text-slate-600 text-sm mt-2">
+          PT Advanced Freight Management Global Logistic menjalankan kegiatan usaha sebagai badan hukum Perseroan Terbatas resmi dengan perizinan lengkap. Klik gambar dokumen untuk memperbesar.
         </p>
       </div>
 
-      <!-- Legal Cards Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+      <!-- Legal Document Cards with Real Scanned Images -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         
-        <!-- SK KEMENKUMHAM -->
-        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+        <!-- Document 1: SK KEMENKUMHAM (PDF Page 13) -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-3">
-              <span class="p-2 rounded-lg bg-amber-50 text-amber-700">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+              <span class="px-2.5 py-0.5 text-[11px] font-bold rounded bg-emerald-100 text-emerald-800">
+                PENGESAHAN PT
               </span>
-              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800">TERVERIFIKASI</span>
+              <button data-copy-text="AHU-0054296.AH.01.01.Tahun 2026" class="btn-copy text-xs text-navy-primary hover:underline font-bold flex items-center gap-1">
+                Salin No. SK
+              </button>
             </div>
-            <h3 class="font-bold text-slate-900 text-base">SK Kemenkumham RI</h3>
-            <p class="text-xs text-slate-500 mt-1">Nomor Pengesahan Badan Hukum PT</p>
-            <div class="mt-3 p-2 bg-slate-50 rounded font-mono text-xs text-slate-800 break-all select-all font-semibold">
-              AHU-0054296.AH.01.01.Tahun 2026
+
+            <div class="overflow-hidden rounded-xl border border-slate-200 bg-slate-100 cursor-pointer open-image-modal" data-image-src="assets/images/legal-sk-kemenkumham.jpg" data-image-caption="SK Pengesahan Kemenkumham RI - PT Advanced Freight Management Global Logistic (AHU-0054296.AH.01.01.Tahun 2026)">
+              <img src="assets/images/legal-sk-kemenkumham.jpg" alt="SK Kemenkumham RI PT AFM GL" class="w-full h-64 object-cover object-top img-preview-zoom">
             </div>
+
+            <h3 class="font-extrabold text-navy-primary text-base mt-4">SK Menteri Hukum RI</h3>
+            <p class="text-xs text-slate-500 font-mono mt-0.5 font-semibold">AHU-0054296.AH.01.01.Tahun 2026</p>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Akta Notaris Risna Mansyur, S.H., M.Kn. No. 03 (06 Juli 2026). Ditetapkan di Jakarta tanggal 10 Juli 2026 oleh Direktur Jenderal AHU.
+            </p>
           </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
-            <button data-copy-value="AHU-0054296.AH.01.01.Tahun 2026" class="copy-btn text-xs text-amber-600 hover:text-amber-700 font-bold flex items-center gap-1">
-              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-              Salin SK
-            </button>
-            <button data-legal-doc="kemenkumham" class="open-legal-modal text-xs text-slate-500 hover:text-slate-800 font-medium">
-              Detail Dokumen →
+
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-emerald-700 font-semibold">✓ Badan Hukum Sah</span>
+            <button class="open-image-modal text-navy-primary font-bold hover:underline" data-image-src="assets/images/legal-sk-kemenkumham.jpg" data-image-caption="SK Pengesahan Badan Hukum PT AFM GL">
+              Perbesar Dokumen ↗
             </button>
           </div>
         </div>
 
-        <!-- NIB BKPM -->
-        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+        <!-- Document 2: NIB BKPM OSS (PDF Page 14) -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-3">
-              <span class="p-2 rounded-lg bg-blue-50 text-blue-700">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+              <span class="px-2.5 py-0.5 text-[11px] font-bold rounded bg-blue-100 text-blue-800">
+                OSS BERBASIS RISIKO
               </span>
-              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800">OSS BERBASIS RISIKO</span>
+              <button data-copy-text="0508260212793" class="btn-copy text-xs text-navy-primary hover:underline font-bold flex items-center gap-1">
+                Salin NIB
+              </button>
             </div>
-            <h3 class="font-bold text-slate-900 text-base">Nomor Induk Berusaha (NIB)</h3>
-            <p class="text-xs text-slate-500 mt-1">Diterbitkan 5 Agustus 2026</p>
-            <div class="mt-3 p-2 bg-slate-50 rounded font-mono text-xs text-slate-800 font-bold select-all">
-              0508260212793
+
+            <div class="overflow-hidden rounded-xl border border-slate-200 bg-slate-100 cursor-pointer open-image-modal" data-image-src="assets/images/legal-nib-oss.jpg" data-image-caption="NIB OSS Berbasis Risiko BKPM: 0508260212793 - KBLI 52311">
+              <img src="assets/images/legal-nib-oss.jpg" alt="NIB OSS Berbasis Risiko BKPM PT AFM GL" class="w-full h-64 object-cover object-top img-preview-zoom">
             </div>
+
+            <h3 class="font-extrabold text-navy-primary text-base mt-4">Nomor Induk Berusaha (NIB)</h3>
+            <p class="text-xs text-slate-500 font-mono mt-0.5 font-semibold">NIB: 0508260212793</p>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Diterbitkan 5 Agustus 2026 oleh Menteri Investasi/Kepala BKPM. Klasifikasi KBLI 52311 (Jasa Pengurusan Transportasi) & hak akses kepabeanan.
+            </p>
           </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
-            <button data-copy-value="0508260212793" class="copy-btn text-xs text-amber-600 hover:text-amber-700 font-bold flex items-center gap-1">
-              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-              Salin NIB
-            </button>
-            <button data-legal-doc="nib" class="open-legal-modal text-xs text-slate-500 hover:text-slate-800 font-medium">
-              Detail Dokumen →
+
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-blue-700 font-semibold">✓ Izin Berusaha Aktif</span>
+            <button class="open-image-modal text-navy-primary font-bold hover:underline" data-image-src="assets/images/legal-nib-oss.jpg" data-image-caption="NIB 0508260212793">
+              Perbesar Dokumen ↗
             </button>
           </div>
         </div>
 
-        <!-- NPWP PERUSAHAAN -->
-        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+        <!-- Document 3: NPWP PERUSAHAAN (PDF Page 14) -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-3">
-              <span class="p-2 rounded-lg bg-emerald-50 text-emerald-700">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+              <span class="px-2.5 py-0.5 text-[11px] font-bold rounded bg-amber-100 text-amber-900">
+                DJP KEMENKEU RI
               </span>
-              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800">DJP KEMENKEU</span>
+              <button data-copy-text="1000000010340490" class="btn-copy text-xs text-navy-primary hover:underline font-bold flex items-center gap-1">
+                Salin NPWP
+              </button>
             </div>
-            <h3 class="font-bold text-slate-900 text-base">NPWP Perusahaan</h3>
-            <p class="text-xs text-slate-500 mt-1">KPP Pratama Makassar Utara</p>
-            <div class="mt-3 p-2 bg-slate-50 rounded font-mono text-xs text-slate-800 font-bold select-all">
-              1000000010340490
-            </div>
-          </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
-            <button data-copy-value="1000000010340490" class="copy-btn text-xs text-amber-600 hover:text-amber-700 font-bold flex items-center gap-1">
-              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-              Salin NPWP
-            </button>
-            <button data-legal-doc="npwp" class="open-legal-modal text-xs text-slate-500 hover:text-slate-800 font-medium">
-              Detail Dokumen →
-            </button>
-          </div>
-        </div>
 
-        <!-- ALFI / ILFA ASOSIASI -->
-        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition">
-          <div>
-            <div class="flex items-center justify-between mb-3">
-              <span class="p-2 rounded-lg bg-indigo-50 text-indigo-700">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-              </span>
-              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-100 text-blue-800">ASOSIASI RESMI</span>
+            <div class="overflow-hidden rounded-xl border border-slate-200 bg-slate-100 cursor-pointer open-image-modal flex items-center justify-center p-2 h-64" data-image-src="assets/images/legal-npwp-card.jpg" data-image-caption="Kartu NPWP Badan Usaha PT AFM GL (KPP Pratama Makassar Utara)">
+              <img src="assets/images/legal-npwp-card.jpg" alt="NPWP Card PT AFM GL" class="w-full h-auto object-contain img-preview-zoom">
             </div>
-            <h3 class="font-bold text-slate-900 text-base">ALFI / ILFA</h3>
-            <p class="text-xs text-slate-500 mt-1">Indonesian Logistics & Forwarders</p>
-            <div class="mt-3 p-2 bg-slate-50 rounded text-xs text-slate-800 font-medium">
-              Asosiasi Logistik & Forwarder Indonesia
-            </div>
+
+            <h3 class="font-extrabold text-navy-primary text-base mt-4">NPWP Badan Usaha</h3>
+            <p class="text-xs text-slate-500 font-mono mt-0.5 font-semibold">1000 0000 1034 0490</p>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Terdaftar resmi di Kantor Pelayanan Pajak (KPP) Pratama Makassar Utara dengan alamat operasional di Laikang, Biringkanaya, Kota Makassar.
+            </p>
           </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
-            <span class="text-[11px] text-emerald-600 font-semibold">Terkoneksi Nasional</span>
-            <button data-legal-doc="alfi" class="open-legal-modal text-xs text-slate-500 hover:text-slate-800 font-medium">
-              Detail Afiliasi →
+
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-amber-800 font-semibold">✓ Taat Pajak & Sah</span>
+            <button class="open-image-modal text-navy-primary font-bold hover:underline" data-image-src="assets/images/legal-npwp-card.jpg" data-image-caption="NPWP 1000000010340490">
+              Perbesar Dokumen ↗
             </button>
           </div>
         </div>
 
-      </div>
-
-      <!-- Network Principles Quote -->
-      <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div class="space-y-1 text-center md:text-left">
-          <div class="text-xs font-bold text-amber-600 uppercase tracking-wider">Nilai Jaringan Kemitraan</div>
-          <h4 class="text-lg sm:text-xl font-bold text-slate-900">Connected • Collaborative • Responsive • Reliable • Professional</h4>
-          <p class="text-slate-500 text-xs sm:text-sm">
-            AFM GL terhubung dengan ekosistem industri yang mendukung pengembangan wawasan sektor maritim, serta hubungan profesional jangka panjang.
-          </p>
-        </div>
-        <div class="shrink-0">
-          <a href="#kontak" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm px-5 py-3 rounded-xl transition">
-            Hubungi Manajemen Perusahaan →
-          </a>
-        </div>
       </div>
 
     </div>
   </section>
 
-  <!-- CONTACT US & LOCATION SECTION -->
-  <section id="kontak" class="py-16 sm:py-24 bg-white">
+  <!-- FLEET SHOWCASE: TRUK FUSO & MULTIMODA -->
+  <section class="py-16 sm:py-20 bg-white border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         
-        <!-- Left: Contact Details -->
+        <div class="lg:col-span-6 space-y-4">
+          <span class="text-xs font-bold text-gold-accent uppercase tracking-widest">Sarana Transportasi Utama</span>
+          <h2 class="text-3xl font-extrabold text-navy-primary leading-tight">
+            Armada Truk Fuso Andal untuk Distribusi Antardaerah
+          </h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Sesuai profil sarana transportasi resmi PT AFM GL, armada Truk Fuso dioperasikan untuk menghubungkan jalur-jalur logistik darat strategis di Pulau Sulawesi dan lintasan antardaerah.
+          </p>
+
+          <div class="space-y-3 pt-2 text-sm">
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-md bg-blue-100 text-navy-primary font-bold flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span>
+              <div>
+                <strong class="text-slate-800">Kapasitas Muat Ideal:</strong>
+                <span class="text-slate-600 ml-1">Kapasitas angkut 8 hingga 15 Ton dengan volume kubikasi 30 - 45 CBM.</span>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-md bg-blue-100 text-navy-primary font-bold flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span>
+              <div>
+                <strong class="text-slate-800">Pilihan Tipe Bak:</strong>
+                <span class="text-slate-600 ml-1">Fuso Box Besi (kargo kering & berharga), Fuso Bak Terbuka dengan terpal kedap air, dan Fuso Loss Bak.</span>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-md bg-blue-100 text-navy-primary font-bold flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span>
+              <div>
+                <strong class="text-slate-800">Kepatuhan Standar Keselamatan:</strong>
+                <span class="text-slate-600 ml-1">Pemeriksaan fisik rutin sebelum berangkat, tali pengikat muatan standar (lashing), dan pengemudi berpengalaman jalur Trans-Sulawesi.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-4">
+            <a href="#kalkulator" class="inline-flex items-center gap-2 bg-navy-primary text-white text-xs sm:text-sm font-bold px-5 py-3 rounded-xl shadow-sm hover:bg-navy-dark transition">
+              Cek Tarif Pengiriman Truk Fuso →
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="bg-slate-50 p-3 rounded-2xl border border-slate-200">
+            <img src="assets/images/fuso-truck-crane.jpg" alt="Armada Truk Fuso AFM GL di Pelabuhan" class="w-full h-auto rounded-xl object-cover">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT & LOCATION DETAILS (PDF PAGE 15) -->
+  <section id="kontak" class="py-16 sm:py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        
+        <!-- Contact Info Left -->
         <div class="lg:col-span-5 space-y-6">
           <div>
-            <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Informasi Kontak</span>
-            <h2 class="text-3xl font-extrabold text-slate-900 mt-1">
-              Hubungi PT AFM Global Logistic
+            <span class="text-xs font-bold text-gold-accent uppercase tracking-widest">Hubungi Kami</span>
+            <h2 class="text-3xl font-extrabold text-navy-primary mt-1">
+              Kontak Resmi PT AFM Global Logistic
             </h2>
-            <p class="text-slate-600 text-sm mt-3 leading-relaxed">
-              Tim kami siap merespons kebutuhan logistik, negosiasi kontrak kerjasama, maupun konsultasi rute transportasi Anda dengan cepat dan ramah.
+            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+              Tim operasional dan manajemen AFM GL siap melayani kebutuhan pengiriman kargo dan kemitraan logistik Anda.
             </p>
           </div>
 
-          <div class="space-y-4 text-sm">
+          <div class="space-y-3.5 text-sm">
             
             <!-- Phone / WA -->
-            <a href="https://wa.me/6285240086288" target="_blank" class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-amber-400 transition group">
-              <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0 group-hover:scale-105 transition">
+            <a href="https://wa.me/6285240086288" target="_blank" class="flex items-center gap-4 p-4 rounded-xl bg-white border border-slate-200 hover:border-emerald-500 transition group shadow-sm">
+              <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path></svg>
               </div>
               <div>
-                <div class="text-xs text-slate-500 font-medium">Nomor Telepon & WhatsApp</div>
-                <div class="font-bold text-slate-900 text-base group-hover:text-emerald-700 transition">0852-4008-6288</div>
-                <div class="text-xs text-emerald-600">Klik untuk kirim pesan WhatsApp langsung</div>
+                <div class="text-xs text-slate-500">Nomor Telepon & WhatsApp</div>
+                <div class="font-extrabold text-slate-900 text-base group-hover:text-emerald-700">0852-4008-6288</div>
               </div>
             </a>
 
             <!-- Email -->
-            <a href="mailto:afmgloballogistik@gmail.com" class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-amber-400 transition group">
-              <div class="w-10 h-10 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center shrink-0 group-hover:scale-105 transition">
+            <a href="mailto:afmgloballogistik@gmail.com" class="flex items-center gap-4 p-4 rounded-xl bg-white border border-slate-200 hover:border-blue-500 transition group shadow-sm">
+              <div class="w-10 h-10 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center shrink-0">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
               </div>
               <div>
-                <div class="text-xs text-slate-500 font-medium">Surat Elektronik (Email)</div>
-                <div class="font-bold text-slate-900 text-base group-hover:text-blue-700 transition">afmgloballogistik@gmail.com</div>
-                <div class="text-xs text-slate-500">Kirim PO, Quotation, atau dokumen pengiriman</div>
+                <div class="text-xs text-slate-500">Email Resmi</div>
+                <div class="font-bold text-slate-900 text-sm group-hover:text-blue-700">afmgloballogistik@gmail.com</div>
               </div>
             </a>
 
             <!-- Instagram -->
-            <a href="https://instagram.com/afm.logistik" target="_blank" class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-amber-400 transition group">
-              <div class="w-10 h-10 rounded-lg bg-pink-100 text-pink-700 flex items-center justify-center shrink-0 group-hover:scale-105 transition">
+            <a href="https://instagram.com/afm.logistik" target="_blank" class="flex items-center gap-4 p-4 rounded-xl bg-white border border-slate-200 hover:border-pink-500 transition group shadow-sm">
+              <div class="w-10 h-10 rounded-lg bg-pink-100 text-pink-700 flex items-center justify-center shrink-0">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
               </div>
               <div>
-                <div class="text-xs text-slate-500 font-medium">Akun Media Sosial</div>
-                <div class="font-bold text-slate-900 text-base group-hover:text-pink-700 transition">@afm.logistik</div>
-                <div class="text-xs text-slate-500">Ikuti aktivitas operasional dan armada kami</div>
+                <div class="text-xs text-slate-500">Instagram</div>
+                <div class="font-bold text-slate-900 text-sm group-hover:text-pink-700">@afm.logistik</div>
               </div>
             </a>
 
             <!-- Address -->
-            <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
-              <div class="w-10 h-10 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center shrink-0">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+            <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
+              <div class="text-xs text-slate-500 font-medium">Alamat Kantor Pusat:</div>
+              <div class="font-bold text-navy-primary text-sm mt-1">
+                BTN Angkasa Pura 1 Sudiang Blok B 8/6
               </div>
-              <div>
-                <div class="text-xs text-slate-500 font-medium">Alamat Kantor Pusat</div>
-                <div class="font-bold text-slate-900 text-sm mt-0.5">
-                  BTN Angkasa Pura 1 Sudiang Blok B 8/6
-                </div>
-                <div class="text-xs text-slate-600 mt-1 leading-snug">
-                  Kelurahan Laikang, Kecamatan Biringkanaya, Kota Makassar, Sulawesi Selatan (Kode Pos: 90242)
-                </div>
+              <div class="text-xs text-slate-600 mt-1 leading-snug">
+                Kelurahan Laikang, Kecamatan Biringkanaya, Kota Makassar, Sulawesi Selatan (90242)
               </div>
             </div>
 
           </div>
         </div>
 
-        <!-- Right: Location Interactive Map Preview & Fast Message Box -->
-        <div class="lg:col-span-7 space-y-6">
-          
-          <div class="bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-200">
-            <h3 class="text-lg font-bold text-slate-900 mb-2">Lokasi Strategis Makassar</h3>
-            <p class="text-slate-600 text-xs sm:text-sm mb-4">
-              Kantor kami berlokasi strategis di Sudiang, Biringkanaya, berdekatan dengan akses langsung menuju Bandara Internasional Sultan Hasanuddin, jalan lingkar tol reformasi, serta akses ke Pelabuhan Utama Soekarno-Hatta Makassar.
-            </p>
-            
-            <!-- Map Placeholder / Interactive Link -->
-            <div class="relative w-full h-64 bg-slate-200 rounded-xl overflow-hidden border border-slate-300 flex flex-col items-center justify-center text-center p-4">
-              <div class="w-12 h-12 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center mb-3 shadow">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
-              </div>
-              <div class="text-sm font-bold text-slate-900">BTN Angkasa Pura 1 Sudiang Blok B 8/6</div>
-              <div class="text-xs text-slate-600 mt-0.5">Biringkanaya, Kota Makassar, Sulawesi Selatan</div>
-              <a href="https://maps.google.com/?q=BTN+Angkasa+Pura+1+Sudiang+Makassar" target="_blank" class="mt-4 inline-flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold px-4 py-2 rounded-lg transition shadow">
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                Buka di Google Maps
-              </a>
-            </div>
-          </div>
-
-          <!-- Fast Email / Quick Note -->
-          <div class="p-6 bg-brand-900 text-white rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div>
-              <h4 class="font-bold text-base">Butuh Pertemuan Bisnis atau Presentasi?</h4>
-              <p class="text-xs text-slate-300 mt-1">Kami siap mengadakan audiensi langsung di Makassar atau via online meeting.</p>
-            </div>
-            <a href="https://wa.me/6285240086288?text=Halo%20Direksi%20PT%20AFM%20GL%2C%20kami%20ingin%20mengagendakan%20diskusi%20kemitraan%20logistik." target="_blank" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs px-4 py-2.5 rounded-lg shrink-0 transition">
-              Jadwalkan Diskusi →
+        <!-- Google Maps & Visual Right -->
+        <div class="lg:col-span-7 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+          <h3 class="text-base font-bold text-navy-primary">Peta Lokasi Kantor Makassar</h3>
+          <p class="text-xs text-slate-500">
+            Terletak strategis dekat Bandara Internasional Sultan Hasanuddin dan jalur lingkar logistik Pelabuhan Soekarno-Hatta Makassar.
+          </p>
+          <div class="w-full h-72 rounded-xl overflow-hidden border border-slate-200 relative bg-slate-100 flex flex-col items-center justify-center text-center p-4">
+            <svg class="w-10 h-10 text-gold-accent mb-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+            <div class="font-bold text-slate-900 text-sm">BTN Angkasa Pura 1 Sudiang Blok B 8/6</div>
+            <div class="text-xs text-slate-500 mt-0.5">Laikang, Biringkanaya, Kota Makassar</div>
+            <a href="https://maps.google.com/?q=BTN+Angkasa+Pura+1+Sudiang+Makassar" target="_blank" class="mt-4 inline-flex items-center gap-1.5 bg-navy-primary hover:bg-navy-dark text-white text-xs font-bold px-4 py-2 rounded-lg transition shadow">
+              Buka Google Maps ↗
             </a>
           </div>
-
         </div>
 
       </div>
@@ -1641,114 +1007,131 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-brand-950 text-slate-400 text-xs border-t border-slate-800/80 py-12">
+  <footer class="bg-navy-dark text-slate-400 text-xs py-12 border-t border-navy-subtle/40">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 mb-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 mb-8">
         
-        <!-- Brand Info -->
-        <div class="lg:col-span-5 space-y-4">
+        <div class="lg:col-span-5 space-y-3">
           <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-full bg-white p-0.5 border border-amber-400 flex items-center justify-center shrink-0">
-              <svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="50" cy="50" r="46" fill="none" stroke="#c9933b" stroke-width="3"/>
-                <path d="M36 34 L40 40 L50 32 L60 40 L64 34 L66 43 L34 43 Z" fill="#c9933b"/>
-                <text x="50" y="62" font-family="'Times New Roman', serif" font-size="28" font-weight="bold" font-style="italic" fill="#c9933b" text-anchor="middle">afm</text>
-                <text x="50" y="76" font-family="sans-serif" font-size="8" font-weight="800" fill="#0b1a30" text-anchor="middle">GLOBAL</text>
-              </svg>
-            </div>
+            <img src="assets/images/afm-logo.jpg" alt="AFM Logo" class="w-10 h-10 rounded-full bg-white p-0.5">
             <div>
-              <div class="text-white font-bold text-sm tracking-wide">PT ADVANCED FREIGHT MANAGEMENT GLOBAL LOGISTIC</div>
-              <div class="text-amber-400 text-[11px] font-semibold">Connecting Logistics, Delivering Excellence</div>
+              <div class="text-white font-extrabold text-sm">PT ADVANCED FREIGHT MANAGEMENT GLOBAL LOGISTIC</div>
+              <div class="text-gold-accent text-xs font-semibold">Connecting Logistics, Delivering Excellence</div>
             </div>
           </div>
           <p class="text-slate-400 leading-relaxed text-xs">
-            Perusahaan Perseroan Terbatas jasa pengurusan transportasi (JPT KBLI 52311) dan freight forwarding. Berkomitmen menghadirkan kelancaran rantai pasok melalui jaringan transportasi darat, armada Fuso, kapal laut, dan kargo udara.
+            Perusahaan Perseroan Terbatas jasa pengurusan transportasi (JPT KBLI 52311) dan freight forwarding. Berkomitmen menghadirkan kelancaran rantai pasok kargo Anda.
           </p>
-          <div class="text-slate-500 text-[11px]">
-            NIB: 0508260212793 • SK Menkumham AHU-0054296.AH.01.01.Tahun 2026 • NPWP: 1000000010340490
+          <div class="text-slate-500 text-[11px] pt-1">
+            NIB: 0508260212793 • SK Kemenkumham: AHU-0054296.AH.01.01.Tahun 2026 • NPWP: 1000000010340490
           </div>
         </div>
 
-        <!-- Quick Links -->
-        <div class="lg:col-span-3 space-y-3">
-          <h4 class="text-white font-bold text-sm">Navigasi Cepat</h4>
-          <ul class="space-y-2 text-xs">
-            <li><a href="#tentang" class="hover:text-amber-400 transition">Tentang Kami & Direksi</a></li>
-            <li><a href="#tujuan-nilai" class="hover:text-amber-400 transition">Visi, Misi & Nilai Inti</a></li>
-            <li><a href="#layanan" class="hover:text-amber-400 transition">Layanan JPT & Freight</a></li>
-            <li><a href="#estimasi" class="hover:text-amber-400 transition">Kalkulator Rute & RFQ</a></li>
-            <li><a href="#alur-kerja" class="hover:text-amber-400 transition">Alur Kerja 8 Langkah</a></li>
-            <li><a href="#legalitas" class="hover:text-amber-400 transition">Legalitas Perusahaan</a></li>
+        <div class="lg:col-span-3 space-y-2">
+          <h4 class="text-white font-bold text-sm">Navigasi Utama</h4>
+          <ul class="space-y-1.5">
+            <li><a href="#tentang" class="hover:text-gold-accent transition">Tentang Kami</a></li>
+            <li><a href="#layanan" class="hover:text-gold-accent transition">Layanan Logistik</a></li>
+            <li><a href="#kalkulator" class="hover:text-gold-accent transition">Kalkulator Rute</a></li>
+            <li><a href="#alur-kerja" class="hover:text-gold-accent transition">Alur Operasional</a></li>
+            <li><a href="#legalitas" class="hover:text-gold-accent transition">Dokumen Legalitas</a></li>
           </ul>
         </div>
 
-        <!-- Corporate Address -->
-        <div class="lg:col-span-4 space-y-3">
+        <div class="lg:col-span-4 space-y-2">
           <h4 class="text-white font-bold text-sm">Kantor Pusat Makassar</h4>
-          <p class="text-slate-400 text-xs leading-relaxed">
-            BTN Angkasa Pura 1 Sudiang Blok B 8/6, Kelurahan Laikang, Kecamatan Biringkanaya, Kota Makassar, Sulawesi Selatan 90242.
+          <p class="text-slate-400 text-xs">
+            BTN Angkasa Pura 1 Sudiang Blok B 8/6, Kelurahan Laikang, Kecamatan Biringkanaya, Kota Makassar, Sulawesi Selatan (90242).
           </p>
-          <div class="space-y-1 text-xs pt-1">
-            <div class="text-slate-300">Telepon / WhatsApp: <a href="tel:085240086288" class="text-amber-400 hover:underline">0852-4008-6288</a></div>
-            <div class="text-slate-300">Email: <a href="mailto:afmgloballogistik@gmail.com" class="text-amber-400 hover:underline">afmgloballogistik@gmail.com</a></div>
-            <div class="text-slate-300">Instagram: <a href="https://instagram.com/afm.logistik" class="text-amber-400 hover:underline">@afm.logistik</a></div>
+          <div class="pt-1 space-y-1 text-slate-300">
+            <div>Telepon / WhatsApp: <a href="tel:085240086288" class="text-gold-accent hover:underline font-bold">0852-4008-6288</a></div>
+            <div>Email: <a href="mailto:afmgloballogistik@gmail.com" class="text-gold-accent hover:underline">afmgloballogistik@gmail.com</a></div>
           </div>
         </div>
 
       </div>
 
-      <div class="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
+      <div class="pt-6 border-t border-slate-800 text-[11px] text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
         <div>
           © 2026 PT Advanced Freight Management Global Logistic (AFM GL). All Rights Reserved.
         </div>
-        <div class="flex items-center gap-4">
-          <span class="text-slate-400">Jasa Pengurusan Transportasi (JPT)</span>
+        <div class="flex items-center gap-3">
+          <span>KBLI 52311</span>
           <span>•</span>
-          <span class="text-amber-400 font-medium">Asosiasi ALFI / ILFA</span>
+          <span class="text-gold-accent font-medium">Asosiasi ALFI / ILFA</span>
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- FLOATING WHATSAPP BUTTON -->
-  <a href="https://wa.me/6285240086288?text=Halo%20PT%20AFM%20Global%20Logistic%2C%20saya%20ingin%20berkonsultasi%20mengenai%20pengiriman%20kargo." target="_blank" class="fixed bottom-6 right-6 z-40 bg-emerald-600 hover:bg-emerald-500 text-white p-3.5 rounded-full shadow-2xl flex items-center justify-center transition transform hover:scale-110 group" title="Hubungi Kami via WhatsApp">
-    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.35.491 1.199.534 1.286.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.861.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"></path></svg>
-    <span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-300 ease-in-out px-0 group-hover:px-2 text-xs font-bold">
-      Chat WhatsApp
-    </span>
+  <!-- FLOATING WHATSAPP CHAT BUTTON -->
+  <a href="https://wa.me/6285240086288?text=Halo%20PT%20AFM%20Global%20Logistic%2C%20saya%20ingin%20berkonsultasi%20mengenai%20pengiriman%20kargo." target="_blank" class="fixed bottom-6 right-6 z-40 bg-emerald-600 hover:bg-emerald-500 text-white p-3.5 rounded-full shadow-xl flex items-center justify-center transition transform hover:scale-105" title="Hubungi Kami via WhatsApp">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.35.491 1.199.534 1.286.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.861.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.144.39-.086s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"></path></svg>
   </a>
 
   <!-- TOAST NOTIFICATION CONTAINER -->
-  <div id="copyToast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-slate-900 text-amber-400 border border-amber-400/40 text-xs font-semibold px-4 py-2.5 rounded-xl shadow-2xl opacity-0 translate-y-4 pointer-events-none transition-all duration-300">
+  <div id="toastNotice" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-navy-dark text-white text-xs font-semibold px-4 py-2.5 rounded-xl shadow-xl border border-slate-700 opacity-0 translate-y-3 pointer-events-none transition duration-300">
     Berhasil disalin!
   </div>
 
-  <!-- LEGALITY MODAL INSPECTOR -->
-  <div id="legalityModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
-    <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 relative animate-float">
-      <div class="flex items-start justify-between pb-3 border-b border-slate-200">
-        <div>
-          <h3 id="modalTitle" class="text-lg font-bold text-slate-900">Detail Legalitas</h3>
-          <p id="modalSubtitle" class="text-xs text-amber-600 font-medium">Dokumen Resmi Perusahaan</p>
-        </div>
-        <button id="closeModalBtn" class="text-slate-400 hover:text-slate-700 p-1 rounded-lg">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+  <!-- IMAGE ZOOM MODAL (FOR LEGAL DOCS & SCANS) -->
+  <div id="imageModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-3xl w-full p-4 sm:p-6 shadow-2xl border border-slate-200 relative max-h-[90vh] flex flex-col">
+      <div class="flex items-center justify-between pb-3 border-b border-slate-200 shrink-0">
+        <h4 id="modalCaption" class="text-sm font-bold text-navy-primary">Pratinjau Dokumen</h4>
+        <button id="closeImageModal" class="p-1 rounded-lg hover:bg-slate-100 text-slate-500">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
         </button>
       </div>
-
-      <div id="modalBody" class="py-4">
-        <!-- Injected via JavaScript -->
-      </div>
-
-      <div class="pt-3 border-t border-slate-100 flex justify-end">
-        <button onclick="document.getElementById('legalityModal').classList.add('hidden')" class="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-lg text-xs font-semibold transition">
-          Tutup
-        </button>
+      <div class="overflow-auto py-4 flex items-center justify-center">
+        <img id="modalImage" src="" alt="Pratinjau Dokumen" class="max-h-[75vh] w-auto object-contain rounded-lg border border-slate-200">
       </div>
     </div>
   </div>
 
-  <!-- Core Interactive Script -->
+  <!-- DIRECTOR FULL SPEECH MODAL -->
+  <div id="directorModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 relative max-h-[85vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-3 border-b border-slate-200">
+        <div>
+          <h4 class="text-base font-extrabold text-navy-primary">Sambutan Lengkap Direktur</h4>
+          <p class="text-xs text-gold-accent font-medium">Andi Farida Merjan — Direktur PT AFM GL</p>
+        </div>
+        <button id="closeDirectorModal" class="p-1 rounded-lg hover:bg-slate-100 text-slate-500">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <div class="py-4 space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
+        <p class="font-bold text-slate-900">Assalamu Alaikum Wr. Wb.</p>
+        <p>
+          Puji syukur kami panjatkan atas berdirinya <strong>PT Advanced Freight Management Global Logistic (AFM GL)</strong> sebagai perusahaan yang bergerak di bidang Jasa Pengurusan Transportasi (JPT) dan freight forwarding.
+        </p>
+        <p>
+          PT AFM GL hadir dengan komitmen untuk memberikan layanan pengurusan transportasi dan logistik yang profesional, responsif, aman, dan berorientasi pada kebutuhan pelanggan. Kami memahami bahwa kelancaran transportasi merupakan bagian penting dari keberlangsungan rantai pasok dan aktivitas bisnis setiap pelanggan.
+        </p>
+        <p>
+          Dengan mengembangkan jaringan transportasi dan kemitraan yang andal, kami berupaya menghadirkan solusi pengiriman yang fleksibel sesuai karakteristik cargo, kebutuhan rute, waktu, serta kondisi operasional pelanggan. Sebagai perusahaan yang sedang berada pada tahap awal pengembangan, kami menjadikan integritas, profesionalisme, keselamatan, keandalan, dan pelayanan pelanggan sebagai fondasi dalam membangun bisnis. Kami percaya bahwa pertumbuhan perusahaan harus dibangun melalui kualitas layanan dan hubungan jangka panjang yang saling memberikan nilai.
+        </p>
+        <p>
+          Ke depan, PT AFM GL berkomitmen untuk terus memperkuat jaringan, meningkatkan kompetensi sumber daya manusia, mengembangkan sistem operasional dan digital, serta memperluas kemampuan layanan transportasi dan logistik secara bertahap.
+        </p>
+        <p>
+          Kami mengundang pelanggan dan mitra untuk tumbuh bersama dan membangun kerja sama yang berkelanjutan.
+        </p>
+        <p class="font-bold text-slate-900 pt-2">
+          Wassalamu Alaikum Wr. Wb.<br>
+          <span class="text-navy-primary font-extrabold">Connecting Logistics, Delivering Excellence.</span>
+        </p>
+        <div class="pt-3 border-t border-slate-200 text-xs text-slate-500">
+          <strong>Andi Farida Merjan</strong><br>
+          Direktur PT Advanced Freight Management Global Logistic
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Javascript -->
   <script src="app.js"></script>
 </body>
 </html>
