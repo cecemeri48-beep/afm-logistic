@@ -70,9 +70,9 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         
-        <!-- Authentic Logo Branding from PDF -->
+        <!-- Authentic Logo Branding from PDF (PT Logo, NOT owner photo) -->
         <a href="#beranda" class="flex items-center gap-3 group">
-          <img src="assets/images/afm-logo.jpg" alt="Logo PT AFM Global Logistic" class="w-12 h-12 rounded-full object-contain border border-slate-200 shadow-sm p-0.5 bg-white">
+          <img src="assets/images/afm-logo.png" alt="Logo PT AFM Global Logistic" class="w-12 h-12 rounded-full object-contain border border-slate-200 shadow-sm p-1 bg-white">
           <div class="flex flex-col">
             <span class="text-navy-primary font-extrabold text-sm sm:text-base tracking-tight leading-tight group-hover:text-navy-light transition">
               PT ADVANCED FREIGHT MANAGEMENT
@@ -205,23 +205,42 @@
       
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
-        <!-- Left: Authentic Director Photo from PDF Page 2 -->
+        <!-- Left: Authentic Director / Owner Photo from PDF Page 2 -->
         <div class="lg:col-span-5">
-          <div class="relative bg-slate-50 p-4 rounded-2xl border border-slate-200 shadow-sm">
-            <div class="overflow-hidden rounded-xl border border-slate-200">
-              <img src="assets/images/director-andi-farida.jpg" alt="Andi Farida Merjan - Direktur PT AFM Global Logistic" class="w-full h-auto object-cover">
-            </div>
-            <div class="mt-4 p-3 bg-white rounded-xl border border-slate-200 flex items-center justify-between">
-              <div>
-                <h3 class="font-bold text-navy-primary text-base">Andi Farida Merjan</h3>
-                <p class="text-xs text-gold-accent font-semibold">Direktur PT Advanced Freight Management Global Logistic</p>
+          <div class="relative bg-gradient-to-b from-slate-50 to-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center sm:text-left">
+            <div class="flex flex-col sm:flex-row items-center gap-5">
+              <div class="relative shrink-0">
+                <div class="w-32 h-32 rounded-full p-1 bg-white border-2 border-gold-accent shadow-md overflow-hidden">
+                  <img src="assets/images/director-andi-farida.png" alt="Andi Farida Merjan - Direktur / Pimpinan PT AFM GL" class="w-full h-full object-cover">
+                </div>
+                <span class="absolute bottom-1 right-1 w-6 h-6 rounded-full bg-emerald-500 text-white flex items-center justify-center text-xs shadow" title="Pimpinan Terverifikasi">
+                  ✓
+                </span>
               </div>
-              <button id="openDirectorModalBtn" class="text-xs font-bold text-navy-light hover:underline flex items-center gap-1">
-                Baca Lengkap →
-              </button>
+              <div class="space-y-1">
+                <span class="px-2.5 py-0.5 rounded text-[11px] font-bold bg-amber-50 text-gold-accent border border-amber-200 inline-block">
+                  Pimpinan & Direksi
+                </span>
+                <h3 class="font-extrabold text-navy-primary text-xl">Andi Farida Merjan</h3>
+                <p class="text-xs text-gold-accent font-bold">Direktur Utama / Pimpinan</p>
+                <p class="text-[11px] text-slate-500">PT Advanced Freight Management Global Logistic</p>
+              </div>
             </div>
+
+            <div class="mt-5 p-4 bg-slate-50 rounded-xl border border-slate-200/80 text-xs text-slate-600 leading-relaxed text-left">
+              <div class="flex items-center justify-between pb-2 border-b border-slate-200 mb-2">
+                <span class="font-semibold text-slate-800">Komitmen Kepemimpinan:</span>
+                <button id="openDirectorModalBtn" class="text-xs font-bold text-navy-primary hover:underline flex items-center gap-1">
+                  Baca Pesan Lengkap →
+                </button>
+              </div>
+              <p class="italic text-slate-700">
+                "Kami berkomitmen memberikan layanan pengurusan transportasi yang profesional, responsif, aman, dan berorientasi pada kebutuhan pelanggan."
+              </p>
+            </div>
+
             <!-- Commissioner info -->
-            <div class="mt-3 p-3 bg-white rounded-xl border border-slate-200 text-xs flex items-center justify-between">
+            <div class="mt-3 p-3 bg-white rounded-xl border border-slate-200 text-xs flex items-center justify-between text-left">
               <div>
                 <div class="font-bold text-slate-800">Muh. Asratillah Senge, S.T.</div>
                 <div class="text-slate-500 text-[11px]">Komisaris Perusahaan</div>
@@ -1013,7 +1032,7 @@
         
         <div class="lg:col-span-5 space-y-3">
           <div class="flex items-center gap-3">
-            <img src="assets/images/afm-logo.jpg" alt="AFM Logo" class="w-10 h-10 rounded-full bg-white p-0.5">
+            <img src="assets/images/afm-logo.png" alt="Logo PT AFM Global Logistic" class="w-12 h-12 rounded-full bg-white p-1 border border-slate-700 object-contain">
             <div>
               <div class="text-white font-extrabold text-sm">PT ADVANCED FREIGHT MANAGEMENT GLOBAL LOGISTIC</div>
               <div class="text-gold-accent text-xs font-semibold">Connecting Logistics, Delivering Excellence</div>
@@ -1092,10 +1111,13 @@
   <!-- DIRECTOR FULL SPEECH MODAL -->
   <div id="directorModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
     <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 relative max-h-[85vh] overflow-y-auto">
-      <div class="flex items-center justify-between pb-3 border-b border-slate-200">
-        <div>
-          <h4 class="text-base font-extrabold text-navy-primary">Sambutan Lengkap Direktur</h4>
-          <p class="text-xs text-gold-accent font-medium">Andi Farida Merjan — Direktur PT AFM GL</p>
+      <div class="flex items-center justify-between pb-4 border-b border-slate-200">
+        <div class="flex items-center gap-3">
+          <img src="assets/images/director-andi-farida.png" alt="Andi Farida Merjan" class="w-12 h-12 rounded-full border-2 border-gold-accent object-cover shadow-sm">
+          <div>
+            <h4 class="text-base font-extrabold text-navy-primary">Sambutan Direktur</h4>
+            <p class="text-xs text-gold-accent font-semibold">Andi Farida Merjan — Direktur PT AFM GL</p>
+          </div>
         </div>
         <button id="closeDirectorModal" class="p-1 rounded-lg hover:bg-slate-100 text-slate-500">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
