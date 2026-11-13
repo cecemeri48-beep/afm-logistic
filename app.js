@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   initNavAnchorScrollWithAutoUnroll();
   initSharePreview();
+  initScrollToTop();
 });
 
 // ============================================================
@@ -32,12 +33,12 @@ function initSectionRolls() {
         if (badgeText) badgeText.textContent = 'Buka Detail';
       } else {
         sec.classList.add('unrolled');
-        if (badgeText) badgeText.textContent = 'Gulung';
+        if (badgeText) badgeText.textContent = 'Tutup Detail';
       }
     });
   });
 
-  // Global "Buka Semua / Gulung Semua" button if present
+  // Global "Buka Semua / Tutup Semua" button if present
   const toggleAllBtn = document.getElementById('toggleAllRollsBtn');
   if (toggleAllBtn) {
     let allOpen = false;
@@ -47,14 +48,14 @@ function initSectionRolls() {
         const badgeText = sec.querySelector('.roll-badge-text');
         if (allOpen) {
           sec.classList.add('unrolled');
-          if (badgeText) badgeText.textContent = 'Gulung';
+          if (badgeText) badgeText.textContent = 'Tutup Detail';
         } else {
           sec.classList.remove('unrolled');
           if (badgeText) badgeText.textContent = 'Buka Detail';
         }
       });
       toggleAllBtn.innerHTML = allOpen 
-        ? `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg><span>Gulung Semua Bagian</span>`
+        ? `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg><span>Tutup Semua Bagian</span>`
         : `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg><span>Buka Semua Bagian</span>`;
     });
   }
@@ -80,7 +81,7 @@ function initNavAnchorScrollWithAutoUnroll() {
       if (parentRoll) {
         parentRoll.classList.add('unrolled');
         const badgeText = parentRoll.querySelector('.roll-badge-text');
-        if (badgeText) badgeText.textContent = 'Gulung';
+        if (badgeText) badgeText.textContent = 'Tutup Detail';
       }
 
       // Smooth scroll after slight delay for DOM expansion
@@ -336,4 +337,29 @@ function initSharePreview() {
 
     shareBtn.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
   }
+}
+
+// ============================================================
+// 8. SCROLL TO TOP BUTTON (MOBILE & DESKTOP)
+// ============================================================
+function initScrollToTop() {
+  const scrollBtn = document.getElementById('scrollToTopBtn');
+  if (!scrollBtn) return;
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 350) {
+      scrollBtn.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
+      scrollBtn.classList.add('opacity-100', 'translate-y-0');
+    } else {
+      scrollBtn.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4');
+      scrollBtn.classList.remove('opacity-100', 'translate-y-0');
+    }
+  }, { passive: true });
+
+  scrollBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
 }

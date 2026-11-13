@@ -8,9 +8,10 @@ Website profil perusahaan logistik interaktif, modern, cepat, dan mobile-first u
 
 1. **Mobile-First & Clean Corporate Design:**
    - Desain modern bernuansa Maritime Navy & Gold Accent tanpa AI-slop.
-   - Header sticky dengan logo emblem Mahkota Emas PT AFM GL beresolusi tinggi.
+   - Logo asli PT AFM GL (`afm-logo.png`) sebagai identitas utama dengan ornamen mahkota watermark elegan di header dan footer.
    - Indikator status operasional aktif & menu responsive dengan tombol aksi WhatsApp Admin.
    - Hero Showcase Multimoda beresolusi tinggi (1200x800) yang pas dan tidak terpotong di HP.
+   - Tombol Scroll-to-Top melayang otomatis dan optimasi Safe-Area Inset untuk kenyamanan navigasi iPhone/Android.
 
 2. **Formulir Permintaan Penawaran Kargo Otomatis ke WhatsApp Admin:**
    - 4 input esensial (Asal, Tujuan, Jenis Barang, Perkiraan Berat/Dimensi) + chip rute cepat.
@@ -41,8 +42,8 @@ afm-logistic-website/
 ├── README.md                            # Dokumentasi proyek
 └── assets/
     └── images/
-        ├── crown-logo-header.png        # Emblem Mahkota Emas Navbar & Favicon PT AFM GL
-        ├── afm-logo.png                 # Logo bulat resmi PT AFM GL
+        ├── afm-logo.png                 # Logo bulat asli resmi PT AFM GL (Navbar, Hero, Footer, Favicon)
+        ├── crown-logo-header.png        # Pemanis watermark mahkota emas (Header & Footer background)
         ├── director-andi-farida.png     # Foto Direktur Utama (Ibu Andi Farida Merjan)
         ├── profile-pt-showcase.jpg      # Banner visual multimoda (1200x800)
         ├── og-thumbnail-afm.jpg         # Thumbnail share WhatsApp/Medsos (1200x630)

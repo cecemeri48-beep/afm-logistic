@@ -2,7 +2,7 @@
 <html lang="id" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>PT AFM GL | Connecting Logistics, Delivering Excellence</title>
   <meta name="description" content="PT Advanced Freight Management Global Logistic (AFM GL) - Jasa Pengurusan Transportasi (JPT) KBLI 52311 & Freight Forwarding di Makassar, Sulawesi Selatan. Solusi transportasi darat Truck, laut, dan udara.">
   <meta name="author" content="PT Advanced Freight Management Global Logistic">
@@ -63,15 +63,15 @@
   <div class="bg-navy-dark text-slate-300 text-xs py-2 px-4 sm:px-6 lg:px-8 border-b border-navy-subtle/40">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-1.5 sm:gap-2">
       <div class="flex items-center gap-2 sm:gap-3 flex-wrap justify-center sm:justify-start text-[11px] sm:text-xs">
-        <span class="flex items-center gap-1 text-slate-300 font-medium">
+        <span class="hidden sm:inline-flex items-center gap-1 text-slate-300 font-medium">
           <svg class="w-3.5 h-3.5 text-gold-accent shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
           BTN Angkasa Pura 1 Sudiang, Kota Makassar
         </span>
-        <span class="hidden md:inline text-slate-600">•</span>
+        <span class="hidden sm:inline text-slate-600">•</span>
         <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-semibold bg-emerald-900/60 text-emerald-300 border border-emerald-600/40">
           KBLI 52311 (JPT Resmi)
         </span>
-        <span class="hidden sm:inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-semibold bg-blue-900/60 text-blue-200 border border-blue-600/40">
+        <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-semibold bg-blue-900/60 text-blue-200 border border-blue-600/40">
           Anggota ALFI / ILFA
         </span>
       </div>
@@ -516,7 +516,7 @@
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between text-xs text-slate-500">
       <div class="flex items-center gap-2">
         <span class="w-2 h-2 rounded-full bg-gold-accent"></span>
-        <span class="font-semibold text-slate-700">Daftar Bagian Berkas Resmi:</span>
+        <span class="font-semibold text-slate-700">Daftar Layanan & Dokumen Resmi:</span>
       </div>
       <button id="toggleAllRollsBtn" class="inline-flex items-center gap-1.5 font-bold text-navy-primary hover:text-navy-light px-2.5 py-1 rounded-lg border border-slate-300 hover:bg-slate-50 transition cursor-pointer">
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
@@ -1409,6 +1409,11 @@
       </div>
     </div>
   </div>
+
+  <!-- SCROLL TO TOP FLOATING BUTTON (MOBILE & DESKTOP) -->
+  <button id="scrollToTopBtn" aria-label="Kembali ke atas" class="fixed bottom-20 sm:bottom-24 right-4 sm:right-6 z-40 bg-white/90 hover:bg-white text-navy-primary hover:text-gold-accent border border-slate-300 shadow-lg p-2.5 sm:p-3 rounded-full opacity-0 pointer-events-none translate-y-4 backdrop-blur-md transition-all duration-300 cursor-pointer">
+    <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+  </button>
 
   <!-- Core Javascript -->
   <script src="app.js"></script>
