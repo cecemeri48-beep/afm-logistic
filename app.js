@@ -328,7 +328,7 @@ function initSharePreview() {
   }
 
   // Dynamic WhatsApp share link
-  const shareBtn = document.querySelector('#share-preview a[href*="api.whatsapp.com"]');
+  const shareBtn = document.querySelector('.btn-share-wa, #share-hub a[href*="api.whatsapp.com"], #share-preview a[href*="api.whatsapp.com"]');
   if (shareBtn) {
     const isOnline = window.location.protocol.startsWith('http');
     const targetUrl = isOnline ? window.location.origin + window.location.pathname : 'https://afmgloballogistik.com';
