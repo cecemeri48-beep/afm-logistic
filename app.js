@@ -332,7 +332,7 @@ function initSharePreview() {
   if (shareBtn) {
     const isOnline = window.location.protocol.startsWith('http');
     const targetUrl = isOnline ? window.location.origin + window.location.pathname : 'https://afmgloballogistik.com';
-    const shareText = `PT ADVANCED FREIGHT MANAGEMENT GLOBAL LOGISTIC (AFM GL)\n“Connecting Logistics, Delivering Excellence”\n\nJPT Resmi KBLI 52311 & Freight Forwarding Makassar.\nLayanan Kargo Darat (Armada Fuso), Laut & Udara Nusantara.\n\n🌐 Kunjungi Website Resmi:\n${targetUrl}\n\n📄 Unduh Company Profile PDF:\nhttps://drive.google.com/file/d/1Na15-ZoQRCUnlcwrqCh6Lh_Qk3gvEpNt/view?usp=drive_link`;
+    const shareText = `PT ADVANCED FREIGHT MANAGEMENT GLOBAL LOGISTIC (AFM GL)\n“Connecting Logistics, Delivering Excellence”\n\nJPT Resmi KBLI 52311 & Freight Forwarding Makassar.\nLayanan Kargo Darat (Armada Truck), Laut & Udara Nusantara.\n\n🌐 Kunjungi Website Resmi:\n${targetUrl}\n\n📄 Unduh Company Profile PDF:\nhttps://drive.google.com/file/d/1Na15-ZoQRCUnlcwrqCh6Lh_Qk3gvEpNt/view?usp=drive_link`;
 
     shareBtn.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
   }
