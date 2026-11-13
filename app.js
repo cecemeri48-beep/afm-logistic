@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initClipboardButtons();
   initMobileMenu();
   initNavAnchorScrollWithAutoUnroll();
+  initSharePreview();
 });
 
 // ============================================================
@@ -300,5 +301,39 @@ function initMobileMenu() {
     links.forEach(l => {
       l.addEventListener('click', () => menu.classList.add('hidden'));
     });
+  }
+}
+
+// ============================================================
+// 7. SHARE PREVIEW & OPEN GRAPH THUMBNAIL UTILITY
+// ============================================================
+function initSharePreview() {
+  // If hosted on a web server (http or https), upgrade relative og:image to full absolute URL
+  if (window.location.protocol.startsWith('http')) {
+    try {
+      const absoluteThumbUrl = new URL('assets/images/og-thumbnail-afm.jpg', window.location.href).href;
+      
+      const ogImg = document.querySelector('meta[property="og:image"]');
+      const ogImgSec = document.querySelector('meta[property="og:image:secure_url"]');
+      const twImg = document.querySelector('meta[name="twitter:image"]');
+      const linkImg = document.querySelector('link[rel="image_src"]');
+
+      if (ogImg) ogImg.setAttribute('content', absoluteThumbUrl);
+      if (ogImgSec) ogImgSec.setAttribute('content', absoluteThumbUrl);
+      if (twImg) twImg.setAttribute('content', absoluteThumbUrl);
+      if (linkImg) linkImg.setAttribute('href', absoluteThumbUrl);
+    } catch (e) {
+      console.warn('Could not set absolute OG image URL:', e);
+    }
+  }
+
+  // Dynamic WhatsApp share link
+  const shareBtn = document.querySelector('#share-preview a[href*="api.whatsapp.com"]');
+  if (shareBtn) {
+    const isOnline = window.location.protocol.startsWith('http');
+    const targetUrl = isOnline ? window.location.origin + window.location.pathname : 'https://afmgloballogistik.com';
+    const shareText = `PT ADVANCED FREIGHT MANAGEMENT GLOBAL LOGISTIC (AFM GL)\n“Connecting Logistics, Delivering Excellence”\n\nJPT Resmi KBLI 52311 & Freight Forwarding Makassar.\nLayanan Kargo Darat (Armada Fuso), Laut & Udara Nusantara.\n\n🌐 Kunjungi Website Resmi:\n${targetUrl}\n\n📄 Unduh Company Profile PDF:\nhttps://drive.google.com/file/d/1Na15-ZoQRCUnlcwrqCh6Lh_Qk3gvEpNt/view?usp=drive_link`;
+
+    shareBtn.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
   }
 }
