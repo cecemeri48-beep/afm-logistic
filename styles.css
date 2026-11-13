@@ -1,6 +1,6 @@
 /* PT ADVANCED FREIGHT MANAGEMENT GLOBAL LOGISTIC (AFM GL)
-   Corporate Clean Design System - Professional Logistics Styling
-   Zero AI-Slop: Clean light background, corporate navy, warm gold accents, sharp cards
+   Mobile-First Corporate Modern Design System
+   Clean, User-Friendly, Collapsible Accordions, Zero Clutter
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
@@ -23,6 +23,7 @@
 * {
   font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -31,29 +32,59 @@ body {
   line-height: 1.6;
 }
 
-/* Crisp corporate borders & shadows */
+/* Mobile-friendly card */
 .corporate-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04);
   transition: all 0.2s ease-in-out;
 }
 
 .corporate-card:hover {
   border-color: #CBD5E1;
-  box-shadow: 0 10px 15px -3px rgba(15, 44, 89, 0.08), 0 4px 6px -4px rgba(15, 44, 89, 0.04);
+  box-shadow: 0 4px 12px -2px rgba(15, 44, 89, 0.08);
 }
 
-/* Clean header styling */
-.corporate-nav {
-  background: rgba(255, 255, 255, 0.98);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid #E2E8F0;
+/* Mobile sticky bottom contact pill */
+.mobile-sticky-cta {
+  box-shadow: 0 -4px 16px -2px rgba(0, 0, 0, 0.08);
 }
 
-/* Custom Corporate Scrollbar */
+/* Smooth Accordion / Collapsible Styling */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+  opacity: 0;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 600px;
+  opacity: 1;
+}
+
+.accordion-item.active .accordion-chevron {
+  transform: rotate(180deg);
+}
+
+.accordion-item.active .accordion-header {
+  background-color: #F8FAFC;
+  border-color: #C58B24;
+}
+
+.accordion-chevron {
+  transition: transform 0.25s ease-in-out;
+}
+
+/* Touch targets */
+button, select, input, a {
+  touch-action: manipulation;
+}
+
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
+  height: 6px;
 }
 ::-webkit-scrollbar-track {
   background: #F1F5F9;
@@ -66,43 +97,10 @@ body {
   background: #94A3B8;
 }
 
-/* Clean badges */
-.badge-gold {
-  background-color: #FEF3C7;
-  color: #92400E;
-  border: 1px solid #FDE68A;
-}
-
-.badge-navy {
-  background-color: #EFF6FF;
-  color: #1E40AF;
-  border: 1px solid #DBEAFE;
-}
-
-.badge-verified {
-  background-color: #ECFDF5;
-  color: #065F46;
-  border: 1px solid #A7F3D0;
-}
-
-/* Active workflow step */
-.step-btn.active {
-  background-color: #0F2C59 !important;
-  color: #FFFFFF !important;
-  border-color: #0F2C59 !important;
-  box-shadow: 0 4px 6px -1px rgba(15, 44, 89, 0.15);
-}
-
-.step-btn.active .step-num {
-  background-color: #C58B24 !important;
-  color: #FFFFFF !important;
-}
-
-/* Image preview modal styling */
+/* Image preview modal */
 .img-preview-zoom {
-  transition: transform 0.25s ease;
+  transition: transform 0.2s ease;
 }
-
 .img-preview-zoom:hover {
   transform: scale(1.02);
 }
