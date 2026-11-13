@@ -1,65 +1,68 @@
-# PT Advanced Freight Management Global Logistic (AFM GL)
-## Website Resmi Profil Perusahaan & Kalkulator Rute Kargo
+# Website Resmi PT Advanced Freight Management Global Logistic (AFM GL)
 
-Website korporat modern, profesional, dan interaktif yang dibangun menggunakan **100% materi otentik dan aset visual** dari dokumen Company Profile resmi PT Advanced Freight Management Global Logistic (Makassar, Sulawesi Selatan).
-
----
-
-## 🌟 Pembaruan Utama (Zero AI Slop & Full Authentic Assets)
-
-1. **Aset Visual Nyata dari Profil (Bukan Gambar AI):**
-   - **Logo Resmi AFM GL:** Ditempatkan di header, navigasi, dan footer (`assets/images/afm-logo.jpg`).
-   - **Banner Hero Multimoda:** Pesawat kargo, kapal peti kemas, armada truk, dan kereta dari sampul profil (`assets/images/hero-multimodal.jpg`).
-   - **Foto Direktur Resmi:** Potret **Andi Farida Merjan** (Direktur) dengan busana hijab resmi dari halaman 2 profil (`assets/images/director-andi-farida.jpg`).
-   - **Foto Operasional Laptop:** Visual monitoring rute dan kargo dari halaman 11 (`assets/images/operations-laptop.jpg`).
-   - **Peta Jaringan Global:** Ilustrasi lintasan maritim dan udara dari halaman 10 (`assets/images/network-global-map.jpg`).
-   - **Diagram Ekosistem Kemitraan:** Diagram resmi ALFI / ILFA, Truck Network, dan Sea Transportation dari halaman 12 (`assets/images/network-ecosystem-circle.jpg`).
-   - **Dokumen Legalitas Asli (Dapat Diperbesar):**
-     * SK Pengesahan Menteri Hukum RI (`legal-sk-kemenkumham.jpg`)
-     * NIB OSS Berbasis Risiko BKPM (`legal-nib-oss.jpg`)
-     * Kartu NPWP KPP Pratama Makassar Utara (`legal-npwp-card.jpg`)
-   - **Armada Truk Fuso:** Dokumentasi truk Fuso di pelabuhan (`assets/images/fuso-truck-crane.jpg`).
-
-2. **Kalkulator Rute & Tarif Berfungsi Penuh:**
-   - **Tombol Rute Cepat:** Makassar ➔ Kendari, Makassar ➔ Palu, Makassar ➔ Mamuju, Makassar ➔ Surabaya, Makassar ➔ Jakarta, Makassar ➔ Balikpapan.
-   - **Penghitungan Real-Time:** Menghitung jarak lintasan (Km), durasi perjalanan (Hari), rekomendasi armada spesifik (Truk Fuso Box/Bak, Kapal Laut FCL/LCL, Air Cargo), tarif per Kg, dan total estimasi dalam Rupiah (Rp).
-   - **Integrasi Langsung WhatsApp:** Tombol *"Kirim Hasil Kalkulasi ke WhatsApp Resmi (0852-4008-6288)"* yang langsung menyusun format pesan lengkap ke admin operasional.
-
-3. **Warna Bersih & Elegan (Bebas Neon AI Slop):**
-   - Menggunakan warna dasar **Pure White** dan **Slate 50** dengan aksen **Deep Navy Blue (`#0F2C59`)** dan **Warm Gold (`#C58B24`)** yang sesuai dengan warna mahkota pada logo AFM GL.
-   - Tata letak kartu rapi, berwibawa, kontras tinggi, dan nyaman dibaca untuk rekanan B2B, perbankan, dan mitra logistik.
+Website profil perusahaan logistik interaktif, modern, cepat, dan mobile-first untuk **PT AFM Global Logistic** (Jasa Pengurusan Transportasi - JPT KBLI 52311 & Freight Forwarding, Makassar).
 
 ---
 
-## 📂 Struktur Berkas
+## 🚀 Fitur Utama
 
-```
-C:\Users\MSI Modern\.gemini\antigravity\scratch\afm-logistic-website\
-├── index.html                   # Halaman web lengkap & responsif
-├── styles.css                   # Sistem desain korporat bersih
-├── app.js                       # Mesin kalkulator rute, modal zoom, stepper
-├── README.md                    # Dokumentasi ini
-└── assets\
-    └── images\                  # Aset foto & pindaian dokumen asli dari PDF
-        ├── afm-logo.jpg
-        ├── director-andi-farida.jpg
-        ├── hero-multimodal.jpg
-        ├── operations-laptop.jpg
-        ├── network-global-map.jpg
-        ├── network-ecosystem-circle.jpg
-        ├── legal-sk-kemenkumham.jpg
-        ├── legal-nib-oss.jpg
-        ├── legal-npwp-card.jpg
-        └── fuso-truck-crane.jpg
+1. **Mobile-First & Clean Corporate Design:**
+   - Desain modern bernuansa Maritime Navy & Gold Accent tanpa AI-slop.
+   - Header sticky dengan indikator status operasional aktif & menu responsive.
+   - Hero Showcase Multimoda beresolusi tinggi (1200x800) yang pas dan tidak terpotong di HP.
+
+2. **Formulir Permintaan Penawaran Kargo Otomatis ke WhatsApp Admin:**
+   - 4 input esensial (Asal, Tujuan, Jenis Barang, Perkiraan Berat/Dimensi) + chip rute cepat.
+   - Mengarahkan langsung ke WhatsApp Hotline Admin AFM GL (`0852-4008-6288`) dengan pesan rapi.
+
+3. **Fungsi Gulung (Collapsible Drawers):**
+   - Bagian Solusi JPT, Alur Kerja 8 Tahapan, Sarana Armada, Dokumen Legalitas, dan Kontak dapat dibuka-tutup dengan satu klik sehingga tidak memakan ruang layar ponsel.
+
+4. **Tautan Resmi Unduh Company Profile (PDF 15 Halaman):**
+   - Terintegrasi langsung dengan link Google Drive resmi perusahaan.
+
+5. **Pratinjau Thumbnail WhatsApp (Open Graph):**
+   - Banner resmi 1200x630 px siap tayang otomatis saat link dibagikan di WhatsApp/medsos.
+
+---
+
+## 📁 Struktur Berkas (Ultra Ringan & Siap Push: ~1.1 MB)
+
+```text
+afm-logistic-website/
+├── index.html                           # Berkas HTML utama (modern, semantic, Tailwind CDN)
+├── styles.css                           # Styling kustom (drawer, animasi, modal)
+├── app.js                               # Skrip interaktif (WA generator, drawer, modal zoom)
+├── .gitignore                           # Filter berkas sementara OS/Editor
+├── README.md                            # Dokumentasi proyek
+└── assets/
+    └── images/
+        ├── afm-logo.png                 # Logo resmi PT (Mahkota Emas & AFM GL)
+        ├── director-andi-farida.png     # Foto Direktur Utama (Ibu Andi Farida Merjan)
+        ├── profile-pt-showcase.jpg      # Banner visual multimoda (1200x800)
+        ├── og-thumbnail-afm.jpg         # Thumbnail share WhatsApp/Medsos (1200x630)
+        ├── fuso-truck-crane.jpg         # Visual armada Truk Fuso Crane
+        ├── operations-laptop.jpg        # Visual sistem alur operasional
+        ├── legal-sk-kemenkumham.jpg     # Dokumen SK Kemenkumham RI
+        ├── legal-nib-oss.jpg            # Dokumen NIB OSS KBLI 52311
+        └── legal-npwp-card.jpg          # Kartu NPWP Perusahaan
 ```
 
 ---
 
-## 🚀 Cara Menjalankan Website
+## 🌐 Cara Deploy / Push ke Hosting (GitHub / Vercel / Netlify / cPanel)
 
-Cukup buka atau klik dua kali (double-click) file:
+### 1. Inisialisasi Git & Push:
+```bash
+git init
+git add .
+git commit -m "feat: initial release PT AFM GL modern website"
+git branch -M main
+git remote add origin <URL_REPOSITORY_ANDA>
+git push -u origin main
 ```
-C:\Users\MSI Modern\.gemini\antigravity\scratch\afm-logistic-website\index.html
-```
-di peramban (browser) apa saja seperti Google Chrome, Microsoft Edge, atau Mozilla Firefox.
-Semua fitur kalkulator, modal dokumen, stepper, dan tombol WhatsApp berjalan secara instan offline maupun online!
+
+### 2. Live Hosting Gratis & Instan:
+- **Vercel:** Tarik repository GitHub atau drag-and-drop folder ini langsung ke dashboard Vercel.
+- **Netlify:** Drag-and-drop folder ini ke [app.netlify.com/drop](https://app.netlify.com/drop).
+- **GitHub Pages:** Aktifkan di Settings > Pages > Deploy from branch `main`.
